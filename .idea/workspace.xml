@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1a2206d-24c7-4e58-a952-0e600cb239d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithm1158.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithm1874.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm1874.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithm9012.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm9012.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/Algorithm1874.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSample/Algorithm1874.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +41,14 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Algorithm1874">
+  <component name="RunManager" selected="Application.Algorithm1158">
+    <configuration name="Algorithm1158" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm1158" />
+      <module name="JavaSample" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Algorithm1874" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Algorithm1874" />
       <module name="JavaSample" />
@@ -59,6 +65,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Algorithm1158" />
         <item itemvalue="Application.Algorithm1874" />
         <item itemvalue="Application.Algorithm9012" />
       </list>
@@ -82,26 +89,26 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="304" y="200" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1580278194112" />
-    <state width="1638" height="369" key="GridCell.Tab.0.bottom" timestamp="1580365299823">
+    <state width="1638" height="369" key="GridCell.Tab.0.bottom" timestamp="1580367023831">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="253" key="GridCell.Tab.0.bottom/-261.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1580354631199" />
-    <state width="1638" height="369" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1580365299823" />
-    <state width="1638" height="369" key="GridCell.Tab.0.center" timestamp="1580365299822">
+    <state width="1638" height="369" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1580367023831" />
+    <state width="1638" height="369" key="GridCell.Tab.0.center" timestamp="1580367023830">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="253" key="GridCell.Tab.0.center/-261.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1580354631198" />
-    <state width="1638" height="369" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1580365299822" />
-    <state width="1638" height="369" key="GridCell.Tab.0.left" timestamp="1580365299821">
+    <state width="1638" height="369" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1580367023830" />
+    <state width="1638" height="369" key="GridCell.Tab.0.left" timestamp="1580367023830">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="253" key="GridCell.Tab.0.left/-261.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1580354631198" />
-    <state width="1638" height="369" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1580365299821" />
-    <state width="1638" height="369" key="GridCell.Tab.0.right" timestamp="1580365299823">
+    <state width="1638" height="369" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1580367023830" />
+    <state width="1638" height="369" key="GridCell.Tab.0.right" timestamp="1580367023831">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="253" key="GridCell.Tab.0.right/-261.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1580354631199" />
-    <state width="1638" height="369" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1580365299823" />
+    <state width="1638" height="369" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1580367023831" />
     <state x="328" y="119" key="SettingsEditor" timestamp="1580278325567">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
