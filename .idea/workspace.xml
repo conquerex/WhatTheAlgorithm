@@ -40,7 +40,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Algorithm10799">
+  <component name="RunManager" selected="Application.Algorithm17298">
     <configuration name="Algorithm10799" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Algorithm10799" />
       <module name="JavaSample" />
@@ -50,6 +50,13 @@
     </configuration>
     <configuration name="Algorithm1158" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Algorithm1158" />
+      <module name="JavaSample" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Algorithm17298" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm17298" />
       <module name="JavaSample" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -69,20 +76,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Algorithm9012" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithm9012" />
-      <module name="JavaSample" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Algorithm17298" />
         <item itemvalue="Application.Algorithm10799" />
         <item itemvalue="Application.Algorithm17413" />
         <item itemvalue="Application.Algorithm1158" />
         <item itemvalue="Application.Algorithm1874" />
-        <item itemvalue="Application.Algorithm9012" />
       </list>
     </recent_temporary>
   </component>
@@ -104,26 +104,42 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="304" y="200" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1580278194112" />
-    <state width="1638" height="369" key="GridCell.Tab.0.bottom" timestamp="1580371321388">
+    <state width="1638" height="207" key="GridCell.Tab.0.bottom" timestamp="1580448257431">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="253" key="GridCell.Tab.0.bottom/-261.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1580354631199" />
+    <state width="1638" height="207" key="GridCell.Tab.0.bottom/-261.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1580448257431" />
     <state width="1638" height="369" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1580371321388" />
-    <state width="1638" height="369" key="GridCell.Tab.0.center" timestamp="1580371321387">
+    <state width="1638" height="207" key="GridCell.Tab.0.center" timestamp="1580448257430">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="253" key="GridCell.Tab.0.center/-261.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1580354631198" />
+    <state width="1638" height="207" key="GridCell.Tab.0.center/-261.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1580448257430" />
     <state width="1638" height="369" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1580371321387" />
-    <state width="1638" height="369" key="GridCell.Tab.0.left" timestamp="1580371321386">
+    <state width="1638" height="207" key="GridCell.Tab.0.left" timestamp="1580448257429">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="253" key="GridCell.Tab.0.left/-261.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1580354631198" />
+    <state width="1638" height="207" key="GridCell.Tab.0.left/-261.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1580448257429" />
     <state width="1638" height="369" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1580371321386" />
-    <state width="1638" height="369" key="GridCell.Tab.0.right" timestamp="1580371321388">
+    <state width="1638" height="207" key="GridCell.Tab.0.right" timestamp="1580448257430">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="253" key="GridCell.Tab.0.right/-261.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1580354631199" />
+    <state width="1638" height="207" key="GridCell.Tab.0.right/-261.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1580448257430" />
     <state width="1638" height="369" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1580371321388" />
+    <state width="1638" height="345" key="GridCell.Tab.1.bottom" timestamp="1580448070087">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="345" key="GridCell.Tab.1.bottom/-261.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1580448070087" />
+    <state width="1638" height="345" key="GridCell.Tab.1.center" timestamp="1580448070086">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="345" key="GridCell.Tab.1.center/-261.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1580448070086" />
+    <state width="1638" height="345" key="GridCell.Tab.1.left" timestamp="1580448070086">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="345" key="GridCell.Tab.1.left/-261.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1580448070086" />
+    <state width="1638" height="345" key="GridCell.Tab.1.right" timestamp="1580448070087">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="345" key="GridCell.Tab.1.right/-261.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1580448070087" />
     <state x="328" y="119" key="SettingsEditor" timestamp="1580278325567">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
