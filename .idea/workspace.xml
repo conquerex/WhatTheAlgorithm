@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1a2206d-24c7-4e58-a952-0e600cb239d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AlgorithmTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AlgorithmTest2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/Algorithm10799.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSample/Algorithm10799.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/Algorithm1158.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSample/Algorithm1158.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/Algorithm17298.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSample/Algorithm17298.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/Algorithm17413.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSample/Algorithm17413.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/Algorithm1874.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSample/Algorithm1874.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/Algorithm9012.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSample/Algorithm9012.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/AlgorithmTemp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSample/AlgorithmTemp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/META-INF/JavaSample.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AlgorithmTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AlgorithmTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,16 +43,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Algorithm17413">
+  <component name="RunManager" selected="Application.AlgorithmTest">
     <configuration name="Algorithm10799" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Algorithm10799" />
-      <module name="JavaSample" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Algorithm1158" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithm1158" />
       <module name="JavaSample" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -87,13 +72,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AlgorithmTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AlgorithmTest" />
+      <module name="JavaSample" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AlgorithmTest" />
         <item itemvalue="Application.Algorithm17413" />
         <item itemvalue="Application.Algorithm9012" />
         <item itemvalue="Application.Algorithm10799" />
         <item itemvalue="Application.Algorithm17298" />
-        <item itemvalue="Application.Algorithm1158" />
       </list>
     </recent_temporary>
   </component>
@@ -132,29 +124,29 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="490" y="307" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1280.777@0.23.1280.777" timestamp="1581660151649" />
-    <state width="1218" height="184" key="GridCell.Tab.0.bottom" timestamp="1581660618423">
+    <state width="1218" height="235" key="GridCell.Tab.0.bottom" timestamp="1581746826915">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1638" height="207" key="GridCell.Tab.0.bottom/-261.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1580448257431" />
-    <state width="1218" height="184" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1581660618423" />
+    <state width="1218" height="235" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1581746826915" />
     <state width="1638" height="369" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1580371321388" />
-    <state width="1218" height="184" key="GridCell.Tab.0.center" timestamp="1581660618422">
+    <state width="1218" height="235" key="GridCell.Tab.0.center" timestamp="1581746826913">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1638" height="207" key="GridCell.Tab.0.center/-261.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1580448257430" />
-    <state width="1218" height="184" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1581660618422" />
+    <state width="1218" height="235" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1581746826913" />
     <state width="1638" height="369" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1580371321387" />
-    <state width="1218" height="184" key="GridCell.Tab.0.left" timestamp="1581660618421">
+    <state width="1218" height="235" key="GridCell.Tab.0.left" timestamp="1581746826913">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1638" height="207" key="GridCell.Tab.0.left/-261.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1580448257429" />
-    <state width="1218" height="184" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1581660618421" />
+    <state width="1218" height="235" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1581746826913" />
     <state width="1638" height="369" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1580371321386" />
-    <state width="1218" height="184" key="GridCell.Tab.0.right" timestamp="1581660618422">
+    <state width="1218" height="235" key="GridCell.Tab.0.right" timestamp="1581746826914">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1638" height="207" key="GridCell.Tab.0.right/-261.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1580448257430" />
-    <state width="1218" height="184" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1581660618422" />
+    <state width="1218" height="235" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1581746826914" />
     <state width="1638" height="369" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1580371321388" />
     <state width="1638" height="345" key="GridCell.Tab.1.bottom" timestamp="1580448070087">
       <screen x="0" y="23" width="1680" height="1027" />
