@@ -33,7 +33,6 @@ public class Algorithm1463 {
 
         // 메모이제이션
         if (d[n] > 0) {
-            System.out.println(">>> d :: " + d[n]);
             return d[n];
         }
 
