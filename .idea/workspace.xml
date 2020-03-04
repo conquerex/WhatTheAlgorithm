@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1a2206d-24c7-4e58-a952-0e600cb239d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/JavaSample/Algorithm1463.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaSample/AlgorithmTest2.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Algorithm1463.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
