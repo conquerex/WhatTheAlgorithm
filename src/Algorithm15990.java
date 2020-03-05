@@ -58,7 +58,7 @@ public class Algorithm15990 {
         int t = sc.nextInt(); // 테스트 케이스 갯수
         while (t-- > 0) {
             int n = sc.nextInt();
-            int result = 0;
+            long result = 0;
             for (int j = 1 ; j <= 3 ; j++) {
                 result += d[n][j];
             }
