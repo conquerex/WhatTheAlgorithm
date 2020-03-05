@@ -1,3 +1,5 @@
+package part1;
+
 import java.io.*;
 import java.util.LinkedList;
 import java.util.Queue;
