@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1a2206d-24c7-4e58-a952-0e600cb239d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Algorithm2193.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithm11053.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AlgorithmTemp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AlgorithmTemp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +42,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Algorithm2193">
+  <component name="RunManager" selected="Application.Algorithm11053">
     <configuration name="Algorithm10844" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Algorithm10844" />
       <module name="JavaSample" />
@@ -53,6 +52,13 @@
     </configuration>
     <configuration name="Algorithm11052" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="part1.Algorithm11052" />
+      <module name="JavaSample" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Algorithm11053" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm11053" />
       <module name="JavaSample" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -72,20 +78,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Algorithm9095" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="part1.Algorithm9095" />
-      <module name="JavaSample" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Algorithm11053" />
         <item itemvalue="Application.Algorithm2193" />
         <item itemvalue="Application.Algorithm10844" />
         <item itemvalue="Application.Algorithm15990" />
         <item itemvalue="Application.Algorithm11052" />
-        <item itemvalue="Application.Algorithm9095" />
       </list>
     </recent_temporary>
   </component>
@@ -124,29 +123,29 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="490" y="307" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1280.777@0.23.1280.777" timestamp="1581660151649" />
-    <state width="1238" height="142" key="GridCell.Tab.0.bottom" timestamp="1583474650527">
+    <state width="1238" height="142" key="GridCell.Tab.0.bottom" timestamp="1583477764234">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1638" height="207" key="GridCell.Tab.0.bottom/-261.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1580448257431" />
-    <state width="1238" height="142" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1583474650527" />
+    <state width="1238" height="142" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1583477764234" />
     <state width="1638" height="369" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1580371321388" />
-    <state width="1238" height="142" key="GridCell.Tab.0.center" timestamp="1583474650526">
+    <state width="1238" height="142" key="GridCell.Tab.0.center" timestamp="1583477764233">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1638" height="207" key="GridCell.Tab.0.center/-261.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1580448257430" />
-    <state width="1238" height="142" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1583474650526" />
+    <state width="1238" height="142" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1583477764233" />
     <state width="1638" height="369" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1580371321387" />
-    <state width="1238" height="142" key="GridCell.Tab.0.left" timestamp="1583474650525">
+    <state width="1238" height="142" key="GridCell.Tab.0.left" timestamp="1583477764232">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1638" height="207" key="GridCell.Tab.0.left/-261.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1580448257429" />
-    <state width="1238" height="142" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1583474650525" />
+    <state width="1238" height="142" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1583477764232" />
     <state width="1638" height="369" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1580371321386" />
-    <state width="1238" height="142" key="GridCell.Tab.0.right" timestamp="1583474650527">
+    <state width="1238" height="142" key="GridCell.Tab.0.right" timestamp="1583477764234">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1638" height="207" key="GridCell.Tab.0.right/-261.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1580448257430" />
-    <state width="1238" height="142" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1583474650527" />
+    <state width="1238" height="142" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1583477764234" />
     <state width="1638" height="369" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1580371321388" />
     <state width="1638" height="345" key="GridCell.Tab.1.bottom" timestamp="1580448070087">
       <screen x="0" y="23" width="1680" height="1027" />
