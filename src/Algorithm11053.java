@@ -25,6 +25,8 @@ public class Algorithm11053 {
         }
 
         for (int i = 0 ; i < n ; i++) {
+            // 초기값 세팅
+            d[i] = 1;
             for (int j = 0 ; j < i ; j++) {
                 /**
                  * list[j] < list[i] : 왼쪽 숫자가 오른쪽 숫자보다 작아야 한다.
