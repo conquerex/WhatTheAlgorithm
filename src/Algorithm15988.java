@@ -31,6 +31,7 @@ public class Algorithm15988 {
                  */
                 if (i-j >= 0) {
                     d[i] += d[i-j];
+                    d[i] %= MOD;
                 }
             }
         }
