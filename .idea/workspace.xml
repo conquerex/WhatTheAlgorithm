@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1a2206d-24c7-4e58-a952-0e600cb239d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Algorithm13398.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part1challenge/Algorithm1309.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AlgorithmTemp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AlgorithmTemp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,10 +39,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="part1challenge" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Algorithm13398">
+  <component name="RunManager" selected="Application.Algorithm1309">
     <configuration name="Algorithm11054" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="part1.Algorithm11054" />
       <module name="JavaSample" />
@@ -65,6 +65,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Algorithm1309" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="part1challenge.Algorithm1309" />
+      <module name="JavaSample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="part1challenge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Algorithm13398" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="part1.Algorithm13398" />
       <module name="JavaSample" />
@@ -72,20 +85,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Algorithm1932" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="part1.Algorithm1932" />
-      <module name="JavaSample" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Algorithm1309" />
         <item itemvalue="Application.Algorithm13398" />
         <item itemvalue="Application.Algorithm11054" />
         <item itemvalue="Application.Algorithm11722" />
         <item itemvalue="Application.Algorithm11055" />
-        <item itemvalue="Application.Algorithm1932" />
       </list>
     </recent_temporary>
   </component>
@@ -128,29 +134,29 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="490" y="307" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1280.777@0.23.1280.777" timestamp="1581660151649" />
-    <state width="1238" height="252" key="GridCell.Tab.0.bottom" timestamp="1583746980043">
+    <state width="1238" height="252" key="GridCell.Tab.0.bottom" timestamp="1583834692251">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1638" height="207" key="GridCell.Tab.0.bottom/-261.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1580448257431" />
-    <state width="1238" height="252" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1583746980043" />
+    <state width="1238" height="252" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1583834692251" />
     <state width="1638" height="369" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1580371321388" />
-    <state width="1238" height="252" key="GridCell.Tab.0.center" timestamp="1583746980041">
+    <state width="1238" height="252" key="GridCell.Tab.0.center" timestamp="1583834692250">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1638" height="207" key="GridCell.Tab.0.center/-261.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1580448257430" />
-    <state width="1238" height="252" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1583746980041" />
+    <state width="1238" height="252" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1583834692250" />
     <state width="1638" height="369" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1580371321387" />
-    <state width="1238" height="252" key="GridCell.Tab.0.left" timestamp="1583746980037">
+    <state width="1238" height="252" key="GridCell.Tab.0.left" timestamp="1583834692249">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1638" height="207" key="GridCell.Tab.0.left/-261.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1580448257429" />
-    <state width="1238" height="252" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1583746980037" />
+    <state width="1238" height="252" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1583834692249" />
     <state width="1638" height="369" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1580371321386" />
-    <state width="1238" height="252" key="GridCell.Tab.0.right" timestamp="1583746980042">
+    <state width="1238" height="252" key="GridCell.Tab.0.right" timestamp="1583834692251">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1638" height="207" key="GridCell.Tab.0.right/-261.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1580448257430" />
-    <state width="1238" height="252" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1583746980042" />
+    <state width="1238" height="252" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1583834692251" />
     <state width="1638" height="369" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1580371321388" />
     <state width="1638" height="345" key="GridCell.Tab.1.bottom" timestamp="1580448070087">
       <screen x="0" y="23" width="1680" height="1027" />
@@ -181,9 +187,13 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="429" y="335" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.777@0.23.1280.777" timestamp="1581660492797" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1583746739860">
+    <state x="306" y="47" width="667" height="729" key="find.popup" timestamp="1583834634095">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.23.1280.777@0.23.1280.777" timestamp="1583746739860" />
+    <state x="306" y="47" width="667" height="729" key="find.popup/0.23.1280.777@0.23.1280.777" timestamp="1583834634095" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1583834695690">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.23.1280.777@0.23.1280.777" timestamp="1583834695690" />
   </component>
 </project>
