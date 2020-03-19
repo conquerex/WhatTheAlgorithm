@@ -7,6 +7,11 @@ import java.util.Scanner;
  * 문제 : https://www.acmicpc.net/problem/2225
  * 풀이 : https://www.acmicpc.net/source/share/4a6b3ffc40154b3e8dd4aa0dc8870855
  *
+ * ㅇ + ㅇ + ... K개... + ㅇ + L = N
+ * ㅇ + ㅇ + ... K개... + ㅇ     = N - L
+ * 위를 표현하는 점화식이 d[K-1][N-L]
+ * L의 모든 경우를 다 합쳐야 함으로 아래와 같이 정리가 된다.
+ *
  * D[K][N]   = D[K-1][0] + D[K-1][1] + ... + D[K-1][N-1] + D[K-1][N]
  * D[K][N-1] = D[K-1][0] + D[K-1][1] + ... + D[K-1][N-1]
  * D[K][N]   = D[K][N-1] + D[K-1][N]
