@@ -16,11 +16,11 @@ public class Solution42577 {
 
     public static boolean solution(String[] phone_book) {
         boolean answer = true;
-        for (int i = 0 ; i < phone_book.length ; i++) {
-            for (int j = 0 ; j < phone_book.length ; j++) {
+        for (int i = 0; i < phone_book.length; i++) {
+            for (int j = 0; j < phone_book.length; j++) {
                 if (phone_book[i] == phone_book[j]) continue;
                 if (phone_book[i].length() >= phone_book[j].length()) continue;
-                if (phone_book[i].equals(phone_book[j].substring(0,phone_book[i].length()))) {
+                if (phone_book[i].equals(phone_book[j].substring(0, phone_book[i].length()))) {
                     return false;
                 }
             }
