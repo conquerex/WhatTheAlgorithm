@@ -4,27 +4,14 @@ import java.util.Scanner;
 
 /**
  * N과 M (3)
- * 문제 : https://www.acmicpc.net/problem/15651
- * 풀이 : https://www.acmicpc.net/source/share/4ad72c25d73f4ff59a8953f4e4af8c99
+ * 문제 : https://www.acmicpc.net/problem/15652
+ * 풀이 : https://www.acmicpc.net/source/share/78990bb707f640d9881fed5e9181acee
  * <p>
- * 자연수 N과 M이 주어졌을 때, 아래 조건을 만족하는 길이가 M인 수열을 모두 구하는 프로그램을 작성하시오.
- * 1부터 N까지 자연수 중에서 중복 없이 M개를 고른 수열 (1 ≤ M ≤ N ≤ 8)
- * "같은 수를 여러 번 골라도 된다."
+ *
+ * 1부터 N까지 자연수 중에서 M개를 고른 수열을 모두 구하는 문제
+ * (중복 선택 가능,비내림차순)
  */
-public class Algorithm15651 {
-
-    /**
-     * 실행 순서
-     * result [0] = 1
-     * move(1, 4, 2)
-     *  result [1] = 1
-     *  move(2, 4, 2)
-     *      builder == 1, 1 /
-     *  result [1] = 2
-     *  move(2, 4, 2)
-     *      builder == 1, 1 / 1, 2
-     * ... 이하 생략 ...
-     */
+public class Algorithm15652 {
 
     static int[] result = new int[10];
     static boolean[] selected = new boolean[10];
