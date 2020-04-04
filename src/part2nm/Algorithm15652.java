@@ -3,13 +3,13 @@ package part2nm;
 import java.util.Scanner;
 
 /**
- * N과 M (3)
+ * N과 M (4)
  * 문제 : https://www.acmicpc.net/problem/15652
  * 풀이 : https://www.acmicpc.net/source/share/78990bb707f640d9881fed5e9181acee
  * <p>
  *
  * 1부터 N까지 자연수 중에서 M개를 고른 수열을 모두 구하는 문제
- * (중복 선택 가능,비내림차순)
+ * (중복 선택 가능,비내림차순 == 오름차순)
  */
 public class Algorithm15652 {
 
