@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1a2206d-24c7-4e58-a952-0e600cb239d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/part2permutation/Algorithm10972.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part2permutation/Algorithm10973.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part2permutation/Algorithm10974.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/part2nm/Algorithm15652.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/part2nm/Algorithm15652.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2permutation/Algorithm10972.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSample/part2permutation/Algorithm10972.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,9 +51,35 @@
       <recent name="$PROJECT_DIR$/src/pr1hash" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Algorithm10972">
+  <component name="RunManager" selected="Application.Algorithm10974">
     <configuration name="Algorithm10972" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="part2permutation.Algorithm10972" />
+      <module name="JavaSample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="part2permutation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Algorithm10973" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="part2permutation.Algorithm10973" />
+      <module name="JavaSample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="part2permutation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Algorithm10974" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="part2permutation.Algorithm10974" />
       <module name="JavaSample" />
       <extension name="coverage">
         <pattern>
@@ -77,32 +104,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution15650" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="part2nm.Solution15650" />
-      <module name="JavaSample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="part2nm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution42577" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pr1hash.Solution42577" />
-      <module name="JavaSample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pr1hash.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Solution42578" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pr1hash.Solution42578" />
       <module name="JavaSample" />
@@ -118,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Algorithm10974" />
+        <item itemvalue="Application.Algorithm10973" />
         <item itemvalue="Application.Algorithm10972" />
         <item itemvalue="Application.Algorithm15651" />
         <item itemvalue="Application.Solution42578" />
-        <item itemvalue="Application.Solution42577" />
-        <item itemvalue="Application.Solution15650" />
       </list>
     </recent_temporary>
   </component>
@@ -169,32 +170,32 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="485" y="304" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.800@0.0.1280.800" timestamp="1585550436369" />
-    <state width="1238" height="161" key="GridCell.Tab.0.bottom" timestamp="1586022370409">
+    <state width="1238" height="161" key="GridCell.Tab.0.bottom" timestamp="1586024933411">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1638" height="207" key="GridCell.Tab.0.bottom/-261.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1580448257431" />
-    <state width="1238" height="161" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1586022370409" />
+    <state width="1238" height="161" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1586024933411" />
     <state width="1238" height="161" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1585555356673" />
     <state width="1638" height="369" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1580371321388" />
-    <state width="1238" height="161" key="GridCell.Tab.0.center" timestamp="1586022370408">
+    <state width="1238" height="161" key="GridCell.Tab.0.center" timestamp="1586024933408">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1638" height="207" key="GridCell.Tab.0.center/-261.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1580448257430" />
-    <state width="1238" height="161" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1586022370408" />
+    <state width="1238" height="161" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1586024933408" />
     <state width="1238" height="161" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1585555356670" />
     <state width="1638" height="369" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1580371321387" />
-    <state width="1238" height="161" key="GridCell.Tab.0.left" timestamp="1586022370407">
+    <state width="1238" height="161" key="GridCell.Tab.0.left" timestamp="1586024933407">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1638" height="207" key="GridCell.Tab.0.left/-261.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1580448257429" />
-    <state width="1238" height="161" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1586022370407" />
+    <state width="1238" height="161" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1586024933407" />
     <state width="1238" height="161" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1585555356668" />
     <state width="1638" height="369" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1580371321386" />
-    <state width="1238" height="161" key="GridCell.Tab.0.right" timestamp="1586022370409">
+    <state width="1238" height="161" key="GridCell.Tab.0.right" timestamp="1586024933409">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1638" height="207" key="GridCell.Tab.0.right/-261.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1580448257430" />
-    <state width="1238" height="161" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1586022370409" />
+    <state width="1238" height="161" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1586024933409" />
     <state width="1238" height="161" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1585555356671" />
     <state width="1638" height="369" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1580371321388" />
     <state width="1638" height="345" key="GridCell.Tab.1.bottom" timestamp="1580448070087">
