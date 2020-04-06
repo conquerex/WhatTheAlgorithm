@@ -53,9 +53,16 @@ public class Algorithm1248 {
             return check();
         }
 
-        // 21^10 : 경우의 수 너무 많음
-        for (int i = -10; i <= 10; i++) {
-            result[index] = i;
+        /**
+         * 21^10 --> 10^10
+         * 그래도 경우의 수 많음
+         */
+        if (sign[index][index] == 0) {
+            result[index] = 0;
+            return cal(index + 1);
+        }
+        for (int i = 1; i <= 10; i++) {
+            result[index] = sign[index][index] * i;
             if (cal(index + 1)) return true;
         }
 
