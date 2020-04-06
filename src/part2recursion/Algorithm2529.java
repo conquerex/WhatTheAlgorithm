@@ -75,7 +75,7 @@ public class Algorithm2529 {
         cal(0, "");
         Collections.sort(result);
         int count = result.size();
-        System.out.println(result.get(0));
         System.out.println(result.get(count - 1));
+        System.out.println(result.get(0));
     }
 }
