@@ -31,18 +31,19 @@ public class Algorithm1248 {
     static int[][] sign;
     static int[] result;
 
-    static boolean check() {
-        for (int i = 0; i < n; i++) {
-            int sum = 0;
-            for (int j = i; j < n; j++) {
-                sum += result[i];
-                if (sign[i][j] == 0) {
-                    if (sum != 0) return false;
-                } else if (sign[i][j] > 0) {
-                    if (sum <= 0) return false;
-                } else if (sign[i][j] < 0) {
-                    if (sum >= 0) return false;
-                }
+    /**
+     * 미리미리 검증하는 방식으로 경우의 수 줄임
+     */
+    static boolean check(int index) {
+        int sum = 0;
+        for (int i = index; i >= 0; i--) {
+            sum += result[i];
+            if (sign[i][index] == 0) {
+                if (sum != 0) return false;
+            } else if (sign[i][index] > 0) {
+                if (sum <= 0) return false;
+            } else if (sign[i][index] < 0) {
+                if (sum >= 0) return false;
             }
         }
         return true;
@@ -50,20 +51,21 @@ public class Algorithm1248 {
 
     static boolean cal(int index) {
         if (index == n) {
-            return check();
+            return true;
         }
 
         /**
-         * 21^10 --> 10^10
-         * 그래도 경우의 수 많음
+         * 21^10 --> 10^10 --> 미리 검증
+         * 경우의 수 줄임
          */
         if (sign[index][index] == 0) {
             result[index] = 0;
-            return cal(index + 1);
+            return check(index) && cal(index + 1);
         }
         for (int i = 1; i <= 10; i++) {
+            // sign[index][index]가 '+'면 result[index]는 무조건 양수이다.
             result[index] = sign[index][index] * i;
-            if (cal(index + 1)) return true;
+            if (check(index) && cal(index + 1)) return true;
         }
 
         return false;
@@ -97,6 +99,6 @@ public class Algorithm1248 {
         for (int i = 0; i < n; i++) {
             System.out.print(result[i] + " ");
         }
-        System.out.println(n);
+        System.out.println();
     }
 }
