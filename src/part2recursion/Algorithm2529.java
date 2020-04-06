@@ -23,7 +23,7 @@ public class Algorithm2529 {
     static ArrayList<String> result = new ArrayList<>();
     static boolean[] check = new boolean[10]; // 0 ~ 9
 
-    static boolean checkNum(String num) {
+    /*static boolean checkNum(String num) {
         for (int i = 0; i < n; i++) {
             // n+1이 있어도 되는 이유, : 부등호 이전과 이후만 체크하기 때문
             if (list[i] == '<') {
@@ -33,23 +33,36 @@ public class Algorithm2529 {
             }
         }
         return true;
+    }*/
+
+    static boolean checkNum(char x, char y, char op) {
+        if (op == '<') {
+            if (x > y) return false;
+        } else if (op == '>') {
+            if (x < y) return false;
+        }
+        return true;
     }
 
     static void cal(int index, String num) {
         // n+1 : 마지막 부등호 다음에 오는 숫자
         // 결과 중 하나를 찾은 경우
         if (index == n + 1) {
-            if (checkNum(num)) {
-                result.add(num);
-            }
+//            if (checkNum(num)) {
+//                result.add(num);
+//            }
+            result.add(num);
             return;
         }
 
         for (int i = 0; i <= 9; i++) {
             if (check[i]) continue;
-            check[i] = true;
-            cal(index + 1, num + "" + i);
-            check[i] = false;
+            // 마지막에 검사하느냐 '과정'에 검사하느냐
+            if (index == 0 || checkNum(num.charAt(index - 1), (i+"").toCharArray()[0], list[index - 1])) {
+                check[i] = true;
+                cal(index + 1, num + "" + i);
+                check[i] = false;
+            }
         }
     }
 
