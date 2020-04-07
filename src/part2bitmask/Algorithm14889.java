@@ -24,6 +24,16 @@ public class Algorithm14889 {
 
         // 1, 10, 11 .... 까지 확인하기 : 모든 집합 확인
         for (int i = 0; i < (1 << n); i++) {
+
+            int count = 0;
+            for (int j = 0; j < n; j++) {
+                // 집합에 어떤 수로 구성되어 있는지 확인
+                if ((i & (1 << j)) == 0) {
+                    count += 1;
+                }
+            }
+            if (count != n/2) continue;
+
             ArrayList<Integer> first = new ArrayList<>();
             ArrayList<Integer> second = new ArrayList<>();
 
@@ -37,7 +47,7 @@ public class Algorithm14889 {
             }
 
             // 전원의 절반이 한팀에 들어가지 않을 경우
-            if (first.size() != n/2) continue;
+//            if (first.size() != n/2) continue;
 
             int team1 = 0;
             int team2 = 0;
