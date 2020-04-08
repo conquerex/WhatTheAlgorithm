@@ -28,7 +28,6 @@ public class Algorithm13023 {
         int m = sc.nextInt();
         // 인접 행렬
         boolean[][] list = new boolean[n][n];
-//        ArrayList<Integer>[] g = (ArrayList<Integer>[]) new ArrayList[n];
         // 인접 리스트
         ArrayList<Integer>[] g = new ArrayList[n];
         // 간선 리스트
