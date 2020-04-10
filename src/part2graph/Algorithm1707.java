@@ -41,14 +41,7 @@ public class Algorithm1707 {
             boolean isGraph = true;
             for (int i = 1; i < n + 1; i++) {
                 if (color[i] == 0) {
-                    showDfs(arrayList, color, i, 1);
-                }
-            }
-
-            for (int i = 1; i < n + 1; i++) {
-                for (int j : arrayList[i]) {
-                    // 인접리스트 구조라서 이렇게 표현됨
-                    if (color[i] == color[j]) {
+                    if (showDfs(arrayList, color, i, 1) == false) {
                         isGraph = false;
                     }
                 }
@@ -62,13 +55,18 @@ public class Algorithm1707 {
         }
     }
 
-    static void showDfs(ArrayList<Integer>[] list, int[] color, int x, int group) {
+    static boolean showDfs(ArrayList<Integer>[] list, int[] color, int x, int group) {
         color[x] = group;
         for (int y : list[x]) {
             if (color[y] == 0) {
                 // color 구조가 0~2이기에 3 - group로 다른 그룹으로 분류함
-                showDfs(list, color, y, 3 - group);
+                if (showDfs(list, color, y, 3 - group) == false) {
+                    return false;
+                }
+            } else if (color[y] == color[x]) {
+                return false;
             }
         }
+        return true;
     }
 }
