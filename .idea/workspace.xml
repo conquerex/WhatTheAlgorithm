@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1a2206d-24c7-4e58-a952-0e600cb239d1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2dfsbfs/Algorithm13023.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSample/part2dfsbfs/Algorithm13023.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part2graph/Algorithm11724.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/part2dfsbfs/Algorithm1260.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/part2dfsbfs/Algorithm1260.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/part2dfsbfs/Algorithm1260_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/part2dfsbfs/Algorithm1260_2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,17 +39,30 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="part2graph" />
       <recent name="part2dfsbfs" />
       <recent name="part2bitmask" />
       <recent name="part2recursion" />
       <recent name="part2permutation" />
-      <recent name="part2nm" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/pr1hash" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Algorithm1260_2">
+  <component name="RunManager" selected="Application.Algorithm11724">
+    <configuration name="Algorithm11724" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="part2graph.Algorithm11724" />
+      <module name="JavaSample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="part2graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Algorithm1260" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="part2dfsbfs.Algorithm1260" />
       <module name="JavaSample" />
@@ -104,26 +115,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Algorithm14889 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="part2bitmask.Algorithm14889" />
-      <module name="JavaSample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="part2bitmask.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Algorithm11724" />
         <item itemvalue="Application.Algorithm1260_2" />
         <item itemvalue="Application.Algorithm1260" />
         <item itemvalue="Application.Algorithm13023" />
         <item itemvalue="Application.Algorithm14391" />
-        <item itemvalue="Application.Algorithm14889 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -174,33 +172,33 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="485" y="304" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.800@0.0.1280.800" timestamp="1585550436369" />
-    <state width="1238" height="180" key="GridCell.Tab.0.bottom" timestamp="1586500925822">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1238" height="180" key="GridCell.Tab.0.bottom" timestamp="1586504281342">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1638" height="207" key="GridCell.Tab.0.bottom/-261.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1580448257431" />
-    <state width="1238" height="180" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1586500925822" />
-    <state width="1238" height="180" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1586497023394" />
+    <state width="1238" height="180" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1586500950392" />
+    <state width="1238" height="180" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1586504281342" />
     <state width="1638" height="369" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1580371321388" />
-    <state width="1238" height="180" key="GridCell.Tab.0.center" timestamp="1586500925817">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1238" height="180" key="GridCell.Tab.0.center" timestamp="1586504281339">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1638" height="207" key="GridCell.Tab.0.center/-261.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1580448257430" />
-    <state width="1238" height="180" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1586500925817" />
-    <state width="1238" height="180" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1586497023390" />
+    <state width="1238" height="180" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1586500950391" />
+    <state width="1238" height="180" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1586504281339" />
     <state width="1638" height="369" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1580371321387" />
-    <state width="1238" height="180" key="GridCell.Tab.0.left" timestamp="1586500925815">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1238" height="180" key="GridCell.Tab.0.left" timestamp="1586504281338">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1638" height="207" key="GridCell.Tab.0.left/-261.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1580448257429" />
-    <state width="1238" height="180" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1586500925815" />
-    <state width="1238" height="180" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1586497023389" />
+    <state width="1238" height="180" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1586500950391" />
+    <state width="1238" height="180" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1586504281338" />
     <state width="1638" height="369" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1580371321386" />
-    <state width="1238" height="180" key="GridCell.Tab.0.right" timestamp="1586500925819">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1238" height="180" key="GridCell.Tab.0.right" timestamp="1586504281340">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1638" height="207" key="GridCell.Tab.0.right/-261.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1580448257430" />
-    <state width="1238" height="180" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1586500925819" />
-    <state width="1238" height="180" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1586497023391" />
+    <state width="1238" height="180" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1586500950392" />
+    <state width="1238" height="180" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1586504281340" />
     <state width="1638" height="369" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1580371321388" />
     <state width="1238" height="263" key="GridCell.Tab.1.bottom" timestamp="1586423659021">
       <screen x="0" y="0" width="1280" height="800" />

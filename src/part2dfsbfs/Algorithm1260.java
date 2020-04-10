@@ -25,7 +25,7 @@ public class Algorithm1260 {
     static boolean[] checkList;
 
     /**
-     * DFS 시나리오
+     * DFS 시나리오 (Stack)
      * 1 -> 2 -> 1(t), 4 -> 1(t), 2(t), 3
      */
     public static void showDfs(int x) {
@@ -43,7 +43,7 @@ public class Algorithm1260 {
     }
 
     /**
-     * BFS 시나리오
+     * BFS 시나리오 (Queue)
      * 1 -> arraylist[1] : (2, 3, 4)
      */
     public static void showBfs(int s) {
