@@ -6,7 +6,7 @@ import java.util.Queue;
 import java.util.Scanner;
 
 /**
- * 단지번호붙이기
+ * 단지번호붙이기 - showBfs
  * 문제 : https://www.acmicpc.net/problem/2667
  * 풀이 : https://www.acmicpc.net/source/share/fc2c76b7935048969af1aff47e3cb75e
  * 첫 번째 줄에는 지도의 크기 N(정사각형이므로 가로와 세로의 크기는 같으며 5≤N≤25)이 입력되고,

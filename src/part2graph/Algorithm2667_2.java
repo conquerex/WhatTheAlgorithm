@@ -6,7 +6,7 @@ import java.util.Queue;
 import java.util.Scanner;
 
 /**
- * 단지번호붙이기
+ * 단지번호붙이기 - showDfs
  * 문제 : https://www.acmicpc.net/problem/2667
  * 풀이 : https://www.acmicpc.net/source/share/fc2c76b7935048969af1aff47e3cb75e
  * 첫 번째 줄에는 지도의 크기 N(정사각형이므로 가로와 세로의 크기는 같으며 5≤N≤25)이 입력되고,
@@ -28,29 +28,20 @@ public class Algorithm2667_2 {
     }
 
     static void showDfs(int[][] map, int x, int y, int[][] group, int count, int n) {
-        /*
-        Queue<Pair> queue = new LinkedList<>();
-        queue.add(new Pair(x, y));
+        // 단지 번호 매기기
         group[x][y] = count;
-        // 하나의 단지를 만든다.
-        while (!queue.isEmpty()) {
-            Pair pair = queue.remove();
-            x = pair.x;
-            y = pair.y;
-            // 집의 상하좌우에 위치한 집의 상대적 위치를 파악해야 함으로 : i < 4
-            for (int i = 0; i < 4; i++) {
-                int nx = x + dx[i];
-                int ny = y + dy[i];
-                if (0 <= nx && nx < n && 0 <= ny && ny < n) {
-                    // 맵에 집이 있고, 단지는 지정되어 있지 않은 경우
-                    if (map[nx][ny] == 1 && group[nx][ny] == 0) {
-                        queue.add(new Pair(nx, ny));
-                        group[nx][ny] = count;
-                    }
+
+        // 중앙 중심으로 방향이 4개이므로
+        for (int i = 0; i < 4; i++) {
+            int nx = x + dx[i];
+            int ny = y + dy[i];
+            if (0 <= nx && nx < n && 0 <= ny && ny < n) {
+                if (map[nx][ny] == 1 && group[nx][ny] == 0) {
+                    showDfs(map, nx, ny, group, count, n);
                 }
             }
         }
-        */
+
     }
 
     public static void main(String[] args) {
@@ -76,8 +67,8 @@ public class Algorithm2667_2 {
                 // 맵에 집이 있고, 단지는 지정되어 있지 않은 경우
                 if (map[i][j] == 1 && group[i][j] == 0) {
                     // 단지가 하나 만들어지고 나서 다음 단지를 만들때
-                    // 다음 showBfs가 수행되므로 ++count
-//                    showBfs(map, i, j, group, ++count, n);
+                    // 다음 showDfs가 수행되므로 ++count
+                    showDfs(map, i, j, group, ++count, n);
                 }
             }
         }
