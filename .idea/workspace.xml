@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1a2206d-24c7-4e58-a952-0e600cb239d1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/part2graphetc/Algorithm16929.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/part2graphetc/Algorithm16929.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part2graphetc/Algorithm16947.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +48,7 @@
       <recent name="$PROJECT_DIR$/src/pr1hash" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Algorithm16929">
+  <component name="RunManager" selected="Application.Algorithm16947">
     <configuration name="Algorithm16929" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="part2graphetc.Algorithm16929" />
       <module name="JavaSample" />
@@ -62,12 +62,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Algorithm2178" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="part2graph.Algorithm2178" />
+    <configuration name="Algorithm16947" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="part2graphetc.Algorithm16947" />
       <module name="JavaSample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="part2graph.*" />
+          <option name="PATTERN" value="part2graphetc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,8 +75,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Algorithm2667" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="part2graph.Algorithm2667" />
+    <configuration name="Algorithm2178" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="part2graph.Algorithm2178" />
       <module name="JavaSample" />
       <extension name="coverage">
         <pattern>
@@ -116,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Algorithm16947" />
         <item itemvalue="Application.Algorithm16929" />
         <item itemvalue="Application.Algorithm7562" />
         <item itemvalue="Application.Algorithm2178" />
         <item itemvalue="Application.Algorithm2667_2" />
-        <item itemvalue="Application.Algorithm2667" />
       </list>
     </recent_temporary>
   </component>
@@ -171,32 +171,32 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="485" y="304" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.800@0.0.1280.800" timestamp="1585550436369" />
-    <state width="1238" height="180" key="GridCell.Tab.0.bottom" timestamp="1586700697160">
+    <state width="1238" height="180" key="GridCell.Tab.0.bottom" timestamp="1586701630556">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1638" height="207" key="GridCell.Tab.0.bottom/-261.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1580448257431" />
-    <state width="1238" height="180" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1586700697160" />
+    <state width="1238" height="180" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1586701630556" />
     <state width="1238" height="180" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1586700681840" />
     <state width="1638" height="369" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1580371321388" />
-    <state width="1238" height="180" key="GridCell.Tab.0.center" timestamp="1586700697155">
+    <state width="1238" height="180" key="GridCell.Tab.0.center" timestamp="1586701630555">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1638" height="207" key="GridCell.Tab.0.center/-261.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1580448257430" />
-    <state width="1238" height="180" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1586700697155" />
+    <state width="1238" height="180" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1586701630555" />
     <state width="1238" height="180" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1586700681839" />
     <state width="1638" height="369" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1580371321387" />
-    <state width="1238" height="180" key="GridCell.Tab.0.left" timestamp="1586700697152">
+    <state width="1238" height="180" key="GridCell.Tab.0.left" timestamp="1586701630554">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1638" height="207" key="GridCell.Tab.0.left/-261.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1580448257429" />
-    <state width="1238" height="180" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1586700697152" />
+    <state width="1238" height="180" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1586701630554" />
     <state width="1238" height="180" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1586700681838" />
     <state width="1638" height="369" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1580371321386" />
-    <state width="1238" height="180" key="GridCell.Tab.0.right" timestamp="1586700697156">
+    <state width="1238" height="180" key="GridCell.Tab.0.right" timestamp="1586701630555">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1638" height="207" key="GridCell.Tab.0.right/-261.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1580448257430" />
-    <state width="1238" height="180" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1586700697156" />
+    <state width="1238" height="180" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1586701630555" />
     <state width="1238" height="180" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1586700681839" />
     <state width="1638" height="369" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1580371321388" />
     <state width="1238" height="263" key="GridCell.Tab.1.bottom" timestamp="1586423659021">
@@ -236,10 +236,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="210" y="143" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.800@0.0.1280.800" timestamp="1586077222164" />
-    <state x="306" y="25" width="667" height="751" key="find.popup" timestamp="1586700458826">
+    <state x="306" y="25" width="667" height="751" key="find.popup" timestamp="1586711212095">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="306" y="25" width="667" height="751" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1586700458826" />
+    <state x="306" y="25" width="667" height="751" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1586711212095" />
     <state x="306" y="47" width="667" height="729" key="find.popup/0.23.1280.777@0.23.1280.777" timestamp="1584102922299" />
     <state x="305" y="104" width="670" height="697" key="search.everywhere.popup" timestamp="1586334636459">
       <screen x="0" y="0" width="1280" height="800" />
