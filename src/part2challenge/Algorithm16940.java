@@ -8,7 +8,7 @@ import java.util.Scanner;
 /**
  * BFS 스페셜 저지
  * 문제 : https://www.acmicpc.net/problem/16940
- * 풀이 : url
+ * 풀이 : https://www.acmicpc.net/source/share/6c58c942cff74fc39d27f890916cce95
  * 첫째 줄에 정점의 수 N(2 ≤ N ≤ 100,000)이 주어진다.
  * 둘째 줄부터 N-1개의 줄에는 트리의 간선 정보가 주어진다.
  * 마지막 줄에는 BFS 방문 순서가 주어진다.
@@ -33,6 +33,7 @@ public class Algorithm16940 {
             list[v2].add(v1);
         }
 
+        // BFS 방문 순서
         for (int i = 0; i < n; i++) {
             order[i] = sc.nextInt() - 1;
         }
