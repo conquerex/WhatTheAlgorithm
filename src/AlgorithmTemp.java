@@ -11,7 +11,7 @@ public class AlgorithmTemp {
         int n = sc.nextInt();
         int m = sc.nextInt();
 
-        for (int i = 0; i < m; i++) {
+        for (int i = 0; i < n; i++) {
             //
         }
 
