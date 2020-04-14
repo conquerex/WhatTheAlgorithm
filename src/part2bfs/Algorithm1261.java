@@ -29,8 +29,8 @@ public class Algorithm1261 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
         int m = sc.nextInt();
+        int n = sc.nextInt();
         sc.nextLine();
 
         int[][] map = new int[n][m];
@@ -58,7 +58,7 @@ public class Algorithm1261 {
             for (int k = 0; k < 4; k++) {
                 int nx = x + dx[k];
                 int ny = y + dy[k];
-                if (0 <= nx && nx < n && 0 <= ny && ny < n) {
+                if (0 <= nx && nx < n && 0 <= ny && ny < m) {
                     if (broken[nx][ny] == -1) {
                         if (map[nx][ny] == 0) {
                             // 방인 경우
