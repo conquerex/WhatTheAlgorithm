@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1a2206d-24c7-4e58-a952-0e600cb239d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/part2tree/Algorithm1167.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/part2tree/Algorithm1167_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/part2tree/Algorithm11725.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/part2tree/Algorithm1967.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/part2tree/Algorithm1991.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/part2tree/Algorithm2250.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/AlgorithmTemp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSample/AlgorithmTemp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AlgorithmTemp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AlgorithmTemp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,11 +50,11 @@
   </component>
   <component name="RunManager" selected="Application.Algorithm1967_2">
     <configuration name="Algorithm1167" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="part2tree.Algorithm1167" />
+      <option name="MAIN_CLASS_NAME" value="baekjoon.part2tree.Algorithm1167" />
       <module name="JavaSample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="part2tree.*" />
+          <option name="PATTERN" value="baekjoon.part2tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,11 +63,11 @@
       </method>
     </configuration>
     <configuration name="Algorithm1167_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="part2tree.Algorithm1167_2" />
+      <option name="MAIN_CLASS_NAME" value="baekjoon.part2tree.Algorithm1167_2" />
       <module name="JavaSample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="part2tree.*" />
+          <option name="PATTERN" value="baekjoon.part2tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,11 +76,11 @@
       </method>
     </configuration>
     <configuration name="Algorithm11725" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="part2tree.Algorithm11725" />
+      <option name="MAIN_CLASS_NAME" value="baekjoon.part2tree.Algorithm11725" />
       <module name="JavaSample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="part2tree.*" />
+          <option name="PATTERN" value="baekjoon.part2tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,11 +89,11 @@
       </method>
     </configuration>
     <configuration name="Algorithm1967" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="part2tree.Algorithm1967" />
+      <option name="MAIN_CLASS_NAME" value="baekjoon.part2tree.Algorithm1967" />
       <module name="JavaSample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="part2tree.*" />
+          <option name="PATTERN" value="baekjoon.part2tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +102,11 @@
       </method>
     </configuration>
     <configuration name="Algorithm1967_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="part2tree.Algorithm1967_2" />
+      <option name="MAIN_CLASS_NAME" value="baekjoon.part2tree.Algorithm1967_2" />
       <module name="JavaSample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="part2tree.*" />
+          <option name="PATTERN" value="baekjoon.part2tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,32 +171,32 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="485" y="304" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.800@0.0.1280.800" timestamp="1585550436369" />
-    <state width="1238" height="180" key="GridCell.Tab.0.bottom" timestamp="1586889764889">
+    <state width="1238" height="180" key="GridCell.Tab.0.bottom" timestamp="1586963230658">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1638" height="207" key="GridCell.Tab.0.bottom/-261.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1580448257431" />
-    <state width="1238" height="180" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1586889764889" />
+    <state width="1238" height="180" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1586963230658" />
     <state width="1238" height="180" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1586876711089" />
     <state width="1638" height="369" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1580371321388" />
-    <state width="1238" height="180" key="GridCell.Tab.0.center" timestamp="1586889764888">
+    <state width="1238" height="180" key="GridCell.Tab.0.center" timestamp="1586963230657">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1638" height="207" key="GridCell.Tab.0.center/-261.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1580448257430" />
-    <state width="1238" height="180" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1586889764888" />
+    <state width="1238" height="180" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1586963230657" />
     <state width="1238" height="180" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1586876711088" />
     <state width="1638" height="369" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1580371321387" />
-    <state width="1238" height="180" key="GridCell.Tab.0.left" timestamp="1586889764887">
+    <state width="1238" height="180" key="GridCell.Tab.0.left" timestamp="1586963230657">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1638" height="207" key="GridCell.Tab.0.left/-261.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1580448257429" />
-    <state width="1238" height="180" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1586889764887" />
+    <state width="1238" height="180" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1586963230657" />
     <state width="1238" height="180" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1586876711087" />
     <state width="1638" height="369" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1580371321386" />
-    <state width="1238" height="180" key="GridCell.Tab.0.right" timestamp="1586889764889">
+    <state width="1238" height="180" key="GridCell.Tab.0.right" timestamp="1586963230658">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1638" height="207" key="GridCell.Tab.0.right/-261.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1580448257430" />
-    <state width="1238" height="180" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1586889764889" />
+    <state width="1238" height="180" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1586963230658" />
     <state width="1238" height="180" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1586876711089" />
     <state width="1638" height="369" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1580371321388" />
     <state width="1238" height="263" key="GridCell.Tab.1.bottom" timestamp="1586423659021">
