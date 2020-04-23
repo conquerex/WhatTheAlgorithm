@@ -2,93 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1a2206d-24c7-4e58-a952-0e600cb239d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pr3bruteforce/Solution42839.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pr3bruteforce/Solution42840.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pr3bruteforce/Solution42841.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pr3bruteforce/Solution42842.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/SolutionTemp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSample/SolutionTemp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part1/Algorithm10799.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part1/Algorithm10844.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part1/Algorithm11052.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part1/Algorithm11053.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part1/Algorithm11054.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part1/Algorithm11055.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part1/Algorithm11057.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part1/Algorithm1158.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part1/Algorithm11722.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part1/Algorithm11726.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part1/Algorithm1309.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part1/Algorithm13398.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part1/Algorithm14002.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part1/Algorithm1463.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part1/Algorithm15988.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part1/Algorithm15990.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part1/Algorithm1699.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part1/Algorithm17298.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part1/Algorithm17413.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part1/Algorithm1874.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part1/Algorithm1912.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part1/Algorithm1932.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part1/Algorithm2193.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part1/Algorithm2225.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part1/Algorithm9012.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part1/Algorithm9095.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part1/Algorithm9465.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part1challenge/Algorithm1309.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part1challenge/Algorithm17404.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part1challenge/Algorithm2225.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part1challenge/Algorithm2225_2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2bitmask/Algorithm11723.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2bitmask/Algorithm1182.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2bitmask/Algorithm14391.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2bitmask/Algorithm14889.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2bruteforce/Algorithm1107.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2bruteforce/Algorithm1476.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2bruteforce/Algorithm1748.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2bruteforce/Algorithm2309.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2bruteforce/Algorithm6064.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2challenge/Algorithm16940.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2challenge/Algorithm16940_2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2challenge/Algorithm16940_2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2challenge/Algorithm16964$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2challenge/Algorithm16964.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2challenge/Algorithm2146$Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2challenge/Algorithm2146.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2dfsbfs/Algorithm1260.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2dfsbfs/Algorithm1260_2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2dfsbfs/Algorithm13023$Edge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2dfsbfs/Algorithm13023.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2dfsbfs/Edge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2graph/Algorithm11724.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2graph/Algorithm1707.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2graph/Algorithm2178$Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2graph/Algorithm2178.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2graph/Algorithm2667$Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2graph/Algorithm2667.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2graph/Algorithm2667_2$Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2graph/Algorithm2667_2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2graph/Algorithm7562.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2graphetc/Algorithm16929.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2graphetc/Algorithm16947.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2nm/Algorithm15649.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2nm/Algorithm15650.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2nm/Algorithm15651.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2nm/Algorithm15652.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2permutation/Algorithm10819.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2permutation/Algorithm10971.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2permutation/Algorithm10972.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2permutation/Algorithm10973.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2permutation/Algorithm10974.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2permutation/Algorithm6603$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2permutation/Algorithm6603.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2recursion/Algorithm1248.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2recursion/Algorithm14501.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2recursion/Algorithm14889.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2recursion/Algorithm1759.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2recursion/Algorithm2529.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/part2recursion/Algorithm9095_2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SolutionTemp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SolutionTemp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/part1/Algorithm10799.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/part1_02_practice/Algorithm10799.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/part1/Algorithm1158.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/part1_01_datastructure/Algorithm1158.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/part1/Algorithm1309.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/part1_06_practice/Algorithm1309.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/part1/Algorithm1463.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/part1_05_/Algorithm1463.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/part1/Algorithm1699.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/part1_05_/Algorithm1699.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/part1/Algorithm17298.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/part1_02_practice/Algorithm17298.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/part1/Algorithm17413.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/part1_01_datastructure/Algorithm17413.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/part1/Algorithm1874.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/part1_01_datastructure/Algorithm1874.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/part1/Algorithm1912.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/part1_05_/Algorithm1912.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/part1/Algorithm1932.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/part1_06_practice/Algorithm1932.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/part1/Algorithm2193.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/part1_05_/Algorithm2193.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/part1/Algorithm9012.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/part1_01_datastructure/Algorithm9012.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +42,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pr1hash" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/baekjoon" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -131,6 +57,7 @@
       <recent name="pr2array" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/baekjoon" />
       <recent name="$PROJECT_DIR$/src/pr1hash" />
     </key>
   </component>
