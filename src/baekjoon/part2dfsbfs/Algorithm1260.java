@@ -21,7 +21,7 @@ import java.util.*;
  */
 public class Algorithm1260 {
 
-    static ArrayList<Integer>[] arrayList;
+    static ArrayList<Integer>[] arrayLists;
     static boolean[] checkList;
 
     /**
@@ -34,7 +34,7 @@ public class Algorithm1260 {
         if (checkList[x]) return;
         checkList[x] = true;
         System.out.print(x + " ");
-        for (int y : arrayList[x]) {
+        for (int y : arrayLists[x]) {
             // arrayList[1] : 1(t) 2(f)
             if (checkList[y] == false) {
                 showDfs(y);
@@ -54,7 +54,7 @@ public class Algorithm1260 {
         while (!queue.isEmpty()) {
             int x = queue.remove();
             System.out.print(x + " ");
-            for (int y : arrayList[x]) {
+            for (int y : arrayLists[x]) {
                 if (checkList[y] == false) {
                     checkList[y] = true;
                     queue.add(y);
@@ -72,10 +72,10 @@ public class Algorithm1260 {
         int m = sc.nextInt();
         int s = sc.nextInt();
         // 1부터라서 n + 1
-        arrayList = (ArrayList<Integer>[]) new ArrayList[n + 1];
+        arrayLists = (ArrayList<Integer>[]) new ArrayList[n + 1];
 
         for (int i = 1; i < n + 1; i++) {
-            arrayList[i] = new ArrayList<>();
+            arrayLists[i] = new ArrayList<>();
         }
 
         for (int i = 0; i < m; i++) {
@@ -83,12 +83,12 @@ public class Algorithm1260 {
             int v1 = sc.nextInt();
             int v2 = sc.nextInt();
             // 양방향이므로 add는 반대로
-            arrayList[v1].add(v2);
-            arrayList[v2].add(v1);
+            arrayLists[v1].add(v2);
+            arrayLists[v2].add(v1);
         }
 
         for (int i = 1; i < n + 1; i++) {
-            Collections.sort(arrayList[i]);
+            Collections.sort(arrayLists[i]);
         }
 
         // DFS

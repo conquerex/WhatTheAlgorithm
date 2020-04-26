@@ -52,11 +52,10 @@ public class Algorithm1697 {
             // x * 2 이동
             if (now * 2 < MAX) {
                 if (check[now * 2] == false) {
-                    if (check[now * 2] == false) {
-                        queue.add(now * 2);
-                        check[now * 2] = true;
-                        distance[now * 2] = distance[now] + 1;
-                    }
+                    queue.add(now * 2);
+                    check[now * 2] = true;
+                    distance[now * 2] = distance[now] + 1;
+
                 }
             }
         }

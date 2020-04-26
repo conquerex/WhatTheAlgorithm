@@ -1,5 +1,6 @@
 package baekjoon.part2dfsbfs;
 
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
@@ -41,6 +42,8 @@ public class Algorithm1260_2 {
         // n = 3 ==> i = count[2] ; i < count[3] ; i++
         for (int i = count[n - 1]; i < count[n]; i++) {
 //            System.out.print(i + "::: ");
+//            System.out.print(edges[i].to + "::: ");
+//            System.out.println();
             // i : 0, edges[0] : 1 2, to : 2
             // i : 3, edges[3] : 2 4, to : 4
             // i : 7/8/9, edges[9] : 4 3, to : 3
@@ -73,6 +76,7 @@ public class Algorithm1260_2 {
             // i = count[3], i< count[4], i++, edges[7,8,9], to:1,2,3 ==> add(x) q:없음
             for (int i = count[n - 1]; i < count[n]; i++) {
 //                System.out.print(i + ":: ");
+//                System.out.println();
                 int next = edges[i].to;
                 if (check[next] == false) {
                     check[next] = true;
@@ -106,6 +110,10 @@ public class Algorithm1260_2 {
 
         // m : 간선 갯수
         m *= 2;
+        Arrays.sort(edges);
+        for (Edge edge : edges) {
+            System.out.println("== " + edge.from + " / " + edge.to);
+        }
 
         // 정점과 이어진 간선 갯수
         for (int i = 0; i < m; i++) {
@@ -117,11 +125,11 @@ public class Algorithm1260_2 {
             count[i] += count[i - 1];
         }
 
-        System.out.println(">>> 0 : " + count[0]);
-        System.out.println(">>> 1 : " + count[1]);
-        System.out.println(">>> 2 : " + count[2]);
-        System.out.println(">>> 3 : " + count[3]);
-        System.out.println(">>> 4 : " + count[4]);
+//        System.out.println(">>> 0 : " + count[0]);
+//        System.out.println(">>> 1 : " + count[1]);
+//        System.out.println(">>> 2 : " + count[2]);
+//        System.out.println(">>> 3 : " + count[3]);
+//        System.out.println(">>> 4 : " + count[4]);
 
         // DFS
         showDfs(s);
@@ -135,6 +143,7 @@ public class Algorithm1260_2 {
     }
 }
 
+//class Edge {
 class Edge implements Comparable<Edge> {
     int from, to;
 
@@ -146,20 +155,18 @@ class Edge implements Comparable<Edge> {
 
     @Override
     public int compareTo(Edge edge) {
-        // 이 문제에서는 상관없는 코드
-//        if (this.from < edge.from) {
-//            return -1;
-//        } else if (this.from == edge.from) {
-//            if (this.to < edge.to) {
-//                return -1;
-//            } else if (this.to == edge.to) {
-//                return 0;
-//            } else {
-//                return 1;
-//            }
-//        } else {
-//            return 1;
-//        }
-        return 0;
+        if (this.from < edge.from) {
+            return -1;
+        } else if (this.from == edge.from) {
+            if (this.to < edge.to) {
+                return -1;
+            } else if (this.to == edge.to) {
+                return 0;
+            } else {
+                return 1;
+            }
+        } else {
+            return 1;
+        }
     }
 }
