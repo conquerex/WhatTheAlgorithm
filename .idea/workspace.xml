@@ -2,11 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1a2206d-24c7-4e58-a952-0e600cb239d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pr4dfsbfs/Solution43165.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baekjoon/part2bfs/Algorithm1697.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/part2bfs/Algorithm1697.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baekjoon/part2dfsbfs/Algorithm1260.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/part2dfsbfs/Algorithm1260.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baekjoon/part2dfsbfs/Algorithm1260_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/part2dfsbfs/Algorithm1260_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/part2bitmask/Algorithm11723.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/part2_05_bitmask/Algorithm11723.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/part2bitmask/Algorithm1182.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/part2_05_bitmask/Algorithm1182.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/part2bitmask/Algorithm14391.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/part2_05_bitmask/Algorithm14391.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/part2bitmask/Algorithm14889.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/part2_05_bitmask/Algorithm14889.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/part2bruteforce/Algorithm1107.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/part2_01_bruteforce/Algorithm1107.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/part2bruteforce/Algorithm1476.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/part2_01_bruteforce/Algorithm1476.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/part2bruteforce/Algorithm1748.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/part2_01_bruteforce/Algorithm1748.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/part2bruteforce/Algorithm2309.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/part2_01_bruteforce/Algorithm2309.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/part2bruteforce/Algorithm6064.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/part2_01_bruteforce/Algorithm6064.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/part2nm/Algorithm15649.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/part2_02_nm/Algorithm15649.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/part2nm/Algorithm15650.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/part2_02_nm/Algorithm15650.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/part2nm/Algorithm15651.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/part2_02_nm/Algorithm15651.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/part2nm/Algorithm15652.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/part2_02_nm/Algorithm15652.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/part2permutation/Algorithm10819.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/part2_03_permutation/Algorithm10819.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/part2permutation/Algorithm10971.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/part2_03_permutation/Algorithm10971.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/part2permutation/Algorithm10972.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/part2_03_permutation/Algorithm10972.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/part2permutation/Algorithm10973.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/part2_03_permutation/Algorithm10973.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/part2permutation/Algorithm10974.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/part2_03_permutation/Algorithm10974.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/part2permutation/Algorithm6603.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/part2_03_permutation/Algorithm6603.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/part2recursion/Algorithm1248.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/part2_04_recursion/Algorithm1248.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/part2recursion/Algorithm14501.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/part2_04_recursion/Algorithm14501.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/part2recursion/Algorithm14889.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/part2_04_recursion/Algorithm14889.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/part2recursion/Algorithm1759.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/part2_04_recursion/Algorithm1759.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/part2recursion/Algorithm2529.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/part2_04_recursion/Algorithm2529.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/part2recursion/Algorithm9095_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/part2_04_recursion/Algorithm9095_2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,11 +76,11 @@
   </component>
   <component name="RunManager" selected="Application.Algorithm1260_2">
     <configuration name="Algorithm1260_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.part2dfsbfs.Algorithm1260_2" />
+      <option name="MAIN_CLASS_NAME" value="baekjoon.part2_06_dfsbfs.Algorithm1260_2" />
       <module name="JavaSample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.part2dfsbfs.*" />
+          <option name="PATTERN" value="baekjoon.part2_06_dfsbfs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,11 +89,11 @@
       </method>
     </configuration>
     <configuration name="Algorithm1697" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.part2bfs.Algorithm1697" />
+      <option name="MAIN_CLASS_NAME" value="baekjoon.part2_10_bfs.Algorithm1697" />
       <module name="JavaSample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.part2bfs.*" />
+          <option name="PATTERN" value="baekjoon.part2_10_bfs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,11 +102,11 @@
       </method>
     </configuration>
     <configuration name="Algorithm1967" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.part2tree.Algorithm1967" />
+      <option name="MAIN_CLASS_NAME" value="baekjoon.part2_11_tree.Algorithm1967" />
       <module name="JavaSample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.part2tree.*" />
+          <option name="PATTERN" value="baekjoon.part2_11_tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,11 +115,11 @@
       </method>
     </configuration>
     <configuration name="Algorithm1967_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.part2tree.Algorithm1967_2" />
+      <option name="MAIN_CLASS_NAME" value="baekjoon.part2_11_tree.Algorithm1967_2" />
       <module name="JavaSample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.part2tree.*" />
+          <option name="PATTERN" value="baekjoon.part2_11_tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
