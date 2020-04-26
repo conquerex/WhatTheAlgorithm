@@ -1,32 +1,34 @@
 package pr4dfsbfs;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.Queue;
-
 public class Solution43165 {
-    boolean[] checkList;
 
-    public int solution(int[] numbers, int target) {
+    static public int solution(int[] numbers, int target) {
+        boolean[] checkList;
         int answer = 0;
-        checkList = new boolean[numbers.length + 1];
-        ArrayList<Integer> list = new ArrayList<>();
-        Queue<Integer> queue = new LinkedList<>();
-        queue.add(1);
-        while (!queue.isEmpty()) {
-            int now = queue.remove();
-
-            if (now > 0) {
-                queue.add(1);
-                // 진행중......
-            } else {
-
-            }
-        }
-        for (int i = 0; i < numbers.length - 1; i++) {
-
-        }
-
+        answer = showDfs(numbers, 0, 0, target);
         return answer;
+    }
+
+    static int showDfs(int[] numbers, int n, int sum, int target) {
+        if (n == numbers.length) {
+            // 식이 완성되었을 때
+            if (sum == target) {
+                return 1;
+            }
+            return 0;
+        }
+
+        // + 였을 때 모든 케이스 갯수
+        int result1 = showDfs(numbers, n + 1, sum + numbers[n], target);
+        // - 였을 때 모든 케이스 갯수
+        int result2 = showDfs(numbers, n + 1, sum - numbers[n], target);
+        
+        return result1 + result2;
+    }
+
+    public static void main(String[] args) {
+        int numbers[] = {1, 1, 1, 1, 1};
+        int target = 3;
+        System.out.println(solution(numbers, target));
     }
 }
