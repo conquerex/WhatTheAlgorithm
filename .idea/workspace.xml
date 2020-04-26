@@ -50,7 +50,7 @@
       <recent name="$PROJECT_DIR$/src/pr1hash" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Algorithm1260_2">
+  <component name="RunManager" selected="Application.Solution43165">
     <configuration name="Algorithm1260_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baekjoon.part2_06_dfsbfs.Algorithm1260_2" />
       <module name="JavaSample" />
@@ -70,19 +70,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="baekjoon.part2_10_bfs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Algorithm1967" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.part2_11_tree.Algorithm1967" />
-      <module name="JavaSample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="baekjoon.part2_11_tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,13 +103,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution43165" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pr4dfsbfs.Solution43165" />
+      <module name="JavaSample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pr4dfsbfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution43165" />
         <item itemvalue="Application.Algorithm1260_2" />
         <item itemvalue="Application.Algorithm1697" />
         <item itemvalue="Application.Solution42842" />
         <item itemvalue="Application.Algorithm1967_2" />
-        <item itemvalue="Application.Algorithm1967" />
       </list>
     </recent_temporary>
   </component>
@@ -173,32 +173,32 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="485" y="304" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.800@0.0.1280.800" timestamp="1585550436369" />
-    <state width="1238" height="162" key="GridCell.Tab.0.bottom" timestamp="1587712507826">
+    <state width="1238" height="162" key="GridCell.Tab.0.bottom" timestamp="1587882610836">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1638" height="207" key="GridCell.Tab.0.bottom/-261.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1580448257431" />
-    <state width="1238" height="162" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1587712507826" />
+    <state width="1238" height="162" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1587882610836" />
     <state width="1238" height="162" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1587708257573" />
     <state width="1638" height="369" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1580371321388" />
-    <state width="1238" height="162" key="GridCell.Tab.0.center" timestamp="1587712507820">
+    <state width="1238" height="162" key="GridCell.Tab.0.center" timestamp="1587882610835">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1638" height="207" key="GridCell.Tab.0.center/-261.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1580448257430" />
-    <state width="1238" height="162" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1587712507820" />
+    <state width="1238" height="162" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1587882610835" />
     <state width="1238" height="162" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1587708257571" />
     <state width="1638" height="369" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1580371321387" />
-    <state width="1238" height="162" key="GridCell.Tab.0.left" timestamp="1587712507819">
+    <state width="1238" height="162" key="GridCell.Tab.0.left" timestamp="1587882610834">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1638" height="207" key="GridCell.Tab.0.left/-261.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1580448257429" />
-    <state width="1238" height="162" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1587712507819" />
+    <state width="1238" height="162" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1587882610834" />
     <state width="1238" height="162" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1587708257570" />
     <state width="1638" height="369" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1580371321386" />
-    <state width="1238" height="162" key="GridCell.Tab.0.right" timestamp="1587712507821">
+    <state width="1238" height="162" key="GridCell.Tab.0.right" timestamp="1587882610836">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1638" height="207" key="GridCell.Tab.0.right/-261.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1580448257430" />
-    <state width="1238" height="162" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1587712507821" />
+    <state width="1238" height="162" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1587882610836" />
     <state width="1238" height="162" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1587708257572" />
     <state width="1638" height="369" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1580371321388" />
     <state width="1238" height="263" key="GridCell.Tab.1.bottom" timestamp="1586423659021">

@@ -3,7 +3,6 @@ package pr4dfsbfs;
 public class Solution43165 {
 
     static public int solution(int[] numbers, int target) {
-        boolean[] checkList;
         int answer = 0;
         answer = showDfs(numbers, 0, 0, target);
         return answer;
@@ -22,7 +21,7 @@ public class Solution43165 {
         int result1 = showDfs(numbers, n + 1, sum + numbers[n], target);
         // - 였을 때 모든 케이스 갯수
         int result2 = showDfs(numbers, n + 1, sum - numbers[n], target);
-        
+
         return result1 + result2;
     }
 
