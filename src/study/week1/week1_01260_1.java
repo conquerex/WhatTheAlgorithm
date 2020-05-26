@@ -2,7 +2,7 @@ package study.week1;
 
 import java.util.*;
 
-public class week1_01260 {
+public class week1_01260_1 {
     static ArrayList<Integer>[] arrayLists;
     static boolean[] checkList;
 
