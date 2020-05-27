@@ -5,6 +5,9 @@ import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.Queue;
 
+/**
+ * 토마토
+ */
 public class week1_07576 {
 
     class Node {
