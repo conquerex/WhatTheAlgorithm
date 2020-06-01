@@ -21,6 +21,7 @@ public class week2_01644 {
             boolean[] arr = new boolean[number + 1];
             ArrayList<Integer> list = new ArrayList<>();
 
+            // 에라토스테네스의 체
             for (int i = 2; i * i <= number; i++) {
                 for (int j = i * i; j <= number; j += i) {
                     arr[j] = true;
