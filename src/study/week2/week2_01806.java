@@ -26,21 +26,36 @@ public class week2_01806 {
                 arrNum[i] = Integer.parseInt(arr2[i]);
             }
 
-            int count = 0;
-            for (int i = 0; i < arrNum.length; i++) {
-                int sum = 0;
-                int cnt = 0;
-                for (int j = i; j < arrNum.length; j++) {
-                    sum += arrNum[j];
-                    cnt++;
-                    if (sum >= s) {
-                        if (count == 0 || count > cnt) {
-                            count = cnt;
-                            break;
-                        }
+            int total = 0, count = 0;
+            int start = 0, end = 0;
+
+            while (true) {
+                if (total >= s) {
+                    if (count == 0 || count > end - start) {
+                        count = end - start;
                     }
+                    total -= arrNum[start++];
+                } else if (end == n) {
+                    break;
+                } else {
+                    total += arrNum[end++];
                 }
             }
+
+//            for (int i = 0; i < arrNum.length; i++) {
+//                int sum = 0;
+//                int cnt = 0;
+//                for (int j = i; j < arrNum.length; j++) {
+//                    sum += arrNum[j];
+//                    cnt++;
+//                    if (sum >= s) {
+//                        if (count == 0 || count > cnt) {
+//                            count = cnt;
+//                            break;
+//                        }
+//                    }
+//                }
+//            }
 
             System.out.println(count);
 
