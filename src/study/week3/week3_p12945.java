@@ -3,7 +3,6 @@ package study.week3;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.math.BigInteger;
 
 /**
  * Created by Jongkook on 04/06/2020.
@@ -37,20 +36,17 @@ public class week3_p12945 {
     }
 
     public static int solution(int n) {
-        BigInteger[] arr = new BigInteger[n + 1];
+        int[] arr = new int[n + 1];
 
         for (int i = 0; i < n + 1; i++) {
-            if (i == 0) {
-                arr[0] = BigInteger.valueOf(0);
+            if (i <= 1) {
+                arr[i] = i;
                 continue;
             }
-            if (i == 1) {
-                arr[1] = BigInteger.valueOf(1);
-                continue;
-            }
-            arr[i] = arr[i - 1].add(arr[i - 2]);
+            arr[i] = arr[i - 1] + arr[i - 2];
+            arr[i] %= 1234567;
         }
 
-        return arr[n].remainder(BigInteger.valueOf(1234567)).intValue();
+        return arr[n];
     }
 }
