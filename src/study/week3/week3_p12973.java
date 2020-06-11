@@ -3,7 +3,6 @@ package study.week3;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
 import java.util.Stack;
 
 /**
@@ -26,11 +25,9 @@ public class week3_p12973 {
     }
 
     static public int solution(String s) {
-//        ArrayList<Character> list = new ArrayList<Character>();
         Stack<Character> stack = new Stack<>();
 
         for (int i = 0; i < s.length(); i++) {
-//            list.add(s.charAt(i));
             stack.push(s.charAt(i));
             if (stack.size() >= 2) {
                 if (stack.get(stack.size() - 2) == stack.get(stack.size() - 1) ) {
@@ -41,6 +38,5 @@ public class week3_p12973 {
         }
 
         return stack.size() > 0 ? 0 : 1;
-//        return list.size() > 0 ? 0 : 1;
     }
 }
