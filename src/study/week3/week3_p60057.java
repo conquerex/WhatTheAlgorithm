@@ -2,6 +2,7 @@ package study.week3;
 
 /**
  * Created by Jongkook on 08/06/2020.
+ * 문자열 압축
  * 문제 출처 : https://programmers.co.kr/learn/courses/30/lessons/60057
  * <p>
  * Time Complexity :

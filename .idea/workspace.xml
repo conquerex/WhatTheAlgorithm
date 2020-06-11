@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1a2206d-24c7-4e58-a952-0e600cb239d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/study/week3/week3_p60057.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/study/week3/week3_p60057Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaSample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSample.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/study/week3/week3_p12945.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study/week3/week3_p12945.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/study/week3/week3_p12973.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study/week3/week3_p12973.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/study/week3/week3_p60057.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study/week3/week3_p60057.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -29,8 +33,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/baekjoon" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -38,8 +48,15 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/.github/workflows" />
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="study.week3" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/baekjoon" />
+      <recent name="$PROJECT_DIR$/src/pr1hash" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="study.week1" />
@@ -48,31 +65,17 @@
       <recent name="pr3bruteforce" />
       <recent name="part2tree" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/baekjoon" />
-      <recent name="$PROJECT_DIR$/src/pr1hash" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.github/workflows" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.week3_p60057">
+  <component name="RunManager" selected="JUnit.week3_p60057Test.solution">
     <configuration name="Challenges1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="challenges.Challenges1" />
       <module name="JavaSample" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="challenges.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="week2_02579" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="study.week2.week2_02579" />
-      <module name="JavaSample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="study.week2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,13 +122,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="week3_p60057Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaSample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="study.week3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="study.week3" />
+      <option name="MAIN_CLASS_NAME" value="study.week3.week3_p60057Test" />
+      <option name="METHOD_NAME" value="solution" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.week3_p60057Test.solution" />
         <item itemvalue="Application.week3_p60057" />
         <item itemvalue="Application.Challenges1" />
         <item itemvalue="Application.week3_p12973" />
         <item itemvalue="Application.week3_p12945" />
-        <item itemvalue="Application.week2_02579" />
       </list>
     </recent_temporary>
   </component>
@@ -216,6 +235,14 @@
     </state>
     <state x="277" y="67" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1590483394198" />
     <state x="250" y="23" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1583746687421" />
+    <state x="352" y="299" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1591855813144">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="352" y="299" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.800@0.0.1280.800" timestamp="1591855813144" />
+    <state x="419" y="201" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1591855822893">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="419" y="201" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.800@0.0.1280.800" timestamp="1591855822893" />
     <state x="210" y="143" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1590487119047">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -247,21 +274,6 @@
           <url>file://$PROJECT_DIR$/src/study/week1/week1_01912.java</url>
           <line>22</line>
           <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/study/week3/week3_p12945.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/study/week3/week3_p12973.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/study/week3/week3_p12973.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
