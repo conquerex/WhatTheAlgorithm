@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1a2206d-24c7-4e58-a952-0e600cb239d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/study/week3/week3_p60057Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/study/week4/week4_02869.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaSample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaSample.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/study/week3/week3_p12945.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study/week3/week3_p12945.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/study/week3/week3_p12973.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study/week3/week3_p12973.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/study/week3/week3_p60057.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study/week3/week3_p60057.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -69,26 +65,13 @@
       <recent name="$PROJECT_DIR$/.github/workflows" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.week3_p60057Test.solution">
+  <component name="RunManager" selected="Application.week4_02869">
     <configuration name="Challenges1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="challenges.Challenges1" />
       <module name="JavaSample" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="challenges.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="week3_p12945" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="study.week3.week3_p12945" />
-      <module name="JavaSample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="study.week3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,6 +105,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="week4_02869" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study.week4.week4_02869" />
+      <module name="JavaSample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="study.week4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="week3_p60057Test.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaSample" />
       <extension name="coverage">
@@ -140,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.week4_02869" />
         <item itemvalue="JUnit.week3_p60057Test.solution" />
         <item itemvalue="Application.week3_p60057" />
         <item itemvalue="Application.Challenges1" />
         <item itemvalue="Application.week3_p12973" />
-        <item itemvalue="Application.week3_p12945" />
       </list>
     </recent_temporary>
   </component>
@@ -194,25 +190,25 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="485" y="304" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.800@0.0.1280.800" timestamp="1585550436369" />
-    <state width="1238" height="166" key="GridCell.Tab.0.bottom" timestamp="1591686457311">
+    <state width="1238" height="166" key="GridCell.Tab.0.bottom" timestamp="1592201742776">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="166" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1591686457311" />
+    <state width="1238" height="166" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1592201742776" />
     <state width="1238" height="166" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1591428065106" />
-    <state width="1238" height="166" key="GridCell.Tab.0.center" timestamp="1591686457310">
+    <state width="1238" height="166" key="GridCell.Tab.0.center" timestamp="1592201742766">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="166" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1591686457310" />
+    <state width="1238" height="166" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1592201742766" />
     <state width="1238" height="166" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1591428065105" />
-    <state width="1238" height="166" key="GridCell.Tab.0.left" timestamp="1591686457309">
+    <state width="1238" height="166" key="GridCell.Tab.0.left" timestamp="1592201742759">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="166" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1591686457309" />
+    <state width="1238" height="166" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1592201742759" />
     <state width="1238" height="166" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1591428065103" />
-    <state width="1238" height="166" key="GridCell.Tab.0.right" timestamp="1591686457310">
+    <state width="1238" height="166" key="GridCell.Tab.0.right" timestamp="1592201742775">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="166" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1591686457310" />
+    <state width="1238" height="166" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1592201742775" />
     <state width="1238" height="166" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1591428065105" />
     <state width="1238" height="263" key="GridCell.Tab.1.bottom" timestamp="1591333878523">
       <screen x="0" y="0" width="1280" height="800" />
@@ -247,10 +243,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="210" y="143" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.800@0.0.1280.800" timestamp="1590487119047" />
-    <state x="306" y="103" width="667" height="676" key="find.popup" timestamp="1591431503641">
+    <state x="306" y="103" width="667" height="676" key="find.popup" timestamp="1592201717394">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="306" y="103" width="667" height="676" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1591431503641" />
+    <state x="306" y="103" width="667" height="676" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1592201717394" />
     <state x="306" y="47" width="667" height="729" key="find.popup/0.23.1280.777@0.23.1280.777" timestamp="1584102922299" />
     <state x="34" y="22" key="new project wizard" timestamp="1590996075830">
       <screen x="0" y="0" width="1280" height="800" />
