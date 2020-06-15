@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1a2206d-24c7-4e58-a952-0e600cb239d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/study/week3/week3_p42883.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/study/week3/week3_p42626.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/study/week3/week3_p42883.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study/week3/week3_p42883.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,13 +66,13 @@
       <recent name="$PROJECT_DIR$/.github/workflows" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.week3_p43164">
-    <configuration name="Challenges1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="challenges.Challenges1" />
+  <component name="RunManager" selected="Application.week3_p42626">
+    <configuration name="week3_p42626" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study.week3.week3_p42626" />
       <module name="JavaSample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="challenges.*" />
+          <option name="PATTERN" value="study.week3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.week3_p42626" />
         <item itemvalue="Application.week3_p43164" />
         <item itemvalue="Application.week4_02869" />
         <item itemvalue="JUnit.week3_p60057Test.solution" />
         <item itemvalue="Application.week3_p60057" />
-        <item itemvalue="Application.Challenges1" />
       </list>
     </recent_temporary>
   </component>

@@ -2,7 +2,8 @@ package study.week3;
 
 /**
  * Created by Jongkook on 15/06/2020.
- * 문제 출처 :
+ * 큰 수 만들기
+ * 문제 출처 :https://programmers.co.kr/learn/courses/30/lessons/42883
  * <p>
  * Time Complexity :
  * Used Algorithm :
