@@ -1,16 +1,13 @@
 package study.week4;
 
-import javax.management.InvalidAttributeValueException;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 
 /**
  * Created by Jongkook on 15/06/2020.
- * 문제 출처 :
+ * 문제 출처 : https://www.acmicpc.net/problem/2343
  * <p>
  * Time Complexity :
  * Used Algorithm :
@@ -33,31 +30,31 @@ public class week4_02343 {
             }
             Arrays.sort(lessonArr);
             int min = lessonArr[lessonCount - 1];
-            ArrayList<Integer> list = new ArrayList<>();
 
-            while (max > min) {
+            while (max >= min) {
+//                System.out.println("-------");
+//                System.out.println(min);
+//                System.out.println(max);
                 int count = 0;
-                int diskSize = (max + min) / 2;
-                int tempSize = 0;
-                for (int i = 0; i < lessonArr.length; i++) {
-                    tempSize += lessonArr[i];
-                    if (tempSize > diskSize) {
-                        tempSize -= lessonArr[i];
-                        list.add(tempSize);
-                        tempSize = lessonArr[i];
-                        count++;
+                // 이분탐색을 위한 mid값
+                int mid = (max + min) / 2;
+                int sum = 0;
+
+                for (int i = 0; i < lessonCount; i++) {
+                    if (sum + lessonArr[i] > mid) {
+                        sum = 0; // reset
+                        count++; // 디스크 갯수 세기
                     }
+                    sum += lessonArr[i];
                 }
-                if (count > diskCount) {
-                    min++;
-                } else if (count <= diskCount) {
-                    max--;
-                }
+
+                if (sum != 0) count++; // 남은 레슨 길이가 있을 때, 갯수 추가
+
+                if (count <= diskCount) max = mid - 1;
+                else min = mid + 1;
             }
 
-            Collections.sort(list);
-            System.out.println(list.get(0));
-            System.out.println(list.get(list.size() - 1));
+            System.out.println(min);
 
         } catch (IOException e) {
             e.printStackTrace();
