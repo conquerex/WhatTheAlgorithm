@@ -14,6 +14,7 @@ public class DebtSettlement {
 
     public static HashMap<String, Integer> table;
     public static int sum = 0;
+    public static int avg = 0;
 
     public static void main(String[] args) {
         table = new HashMap<>();
@@ -30,6 +31,7 @@ public class DebtSettlement {
                         }
                         table.put(arr[1], Integer.parseInt(arr[2]));
                         sum += Integer.parseInt(arr[2]);
+                        avg = sum / table.size();
                         break;
                     case 2:
                         for (String key : keys) {
@@ -38,13 +40,30 @@ public class DebtSettlement {
                         break;
                     case 3:
                         if (!table.containsKey(arr[1])) break;
-                        int send = sum / table.size() - table.get(arr[1]);
+                        int send = avg - table.get(arr[1]);
                         if (send > 0) {
-                            System.out.println(arr[1] + "에게 " + send + "원을 보내세요.");
+                            for (String key : keys) {
+                                if (table.get(key) > avg) {
+                                    int get = table.get(key) - avg;
+                                    System.out.println(key + "에게 " + minValue(send, get) + "원을 보내세요.");
+                                }
+                            }
                         } else {
                             System.out.println("보내야 할 돈이 없습니다.");
                         }
+                        break;
                     case 4:
+                        for (String k : keys) {
+                            int send2 = avg - table.get(k);
+                            if (send2 > 0) {
+                                for (String key : keys) {
+                                    if (table.get(key) > avg) {
+                                        int get = table.get(key) - avg;
+                                        System.out.println(k + " -> "+ key + " / " + minValue(send2, get) + "원");
+                                    }
+                                }
+                            }
+                        }
                         break;
                 }
 
@@ -56,5 +75,9 @@ public class DebtSettlement {
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+
+    private static int minValue(int a, int b) {
+        return a < b ? a : b;
     }
 }
