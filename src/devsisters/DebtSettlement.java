@@ -18,6 +18,10 @@ import java.util.Set;
  * ex) 3 정우
  * api 4 : 전체 사람이 보내야 할 금액
  * ex) 4
+ *
+ * 아쉬운 부분
+ * - 3인까지는 가능한 코드이지만 4인 이상일 경우는 고려되지 않음
+ * - 금액 출력시 10원 단위 처리가 되지 않음
  */
 
 public class DebtSettlement {
