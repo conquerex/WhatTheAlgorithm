@@ -26,6 +26,11 @@ public class week4_02156 {
                 arr[i] = Integer.parseInt(br.readLine());
             }
 
+            if (n == 1) {
+                System.out.println(arr[1]);
+                return;
+            }
+
             dp[0] = 0;
             dp[1] = arr[1];
             dp[2] = arr[1] + arr[2];
