@@ -1,4 +1,4 @@
-package pr3bruteforce;
+package programmers.pr3bruteforce;
 
 /**
  * 소수 찾기

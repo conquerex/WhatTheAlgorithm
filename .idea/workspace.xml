@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1a2206d-24c7-4e58-a952-0e600cb239d1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/devsisters/DebtSettlement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devsisters/DebtSettlement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,46 +166,38 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="240" y="77" key="#Project_Structure" timestamp="1583572652245">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state x="240" y="48" key="#Plugins" timestamp="1595311385011">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="77" key="#Project_Structure/0.23.1280.777@0.23.1280.777" timestamp="1583572652245" />
+    <state x="240" y="48" key="#Plugins/0.0.1280.800@0.0.1280.800" timestamp="1595311385011" />
     <state x="359" y="209" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591429770013">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="359" y="209" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800@0.0.1280.800" timestamp="1591429770013" />
-    <state x="453" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1586334006864">
+    <state x="328" y="143" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1595311102057">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="453" y="116" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1586334006864" />
-    <state x="328" y="143" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1591254045127">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="328" y="143" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.800@0.0.1280.800" timestamp="1591254045127" />
-    <state x="485" y="304" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1585550436369">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="485" y="304" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.800@0.0.1280.800" timestamp="1585550436369" />
-    <state width="1238" height="211" key="GridCell.Tab.0.bottom" timestamp="1592898674434">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state x="328" y="143" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.800@0.0.1280.800" timestamp="1595311102057" />
+    <state width="1238" height="211" key="GridCell.Tab.0.bottom" timestamp="1595311160721">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1592898674434" />
-    <state width="1238" height="347" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1592374326035" />
-    <state width="1238" height="211" key="GridCell.Tab.0.center" timestamp="1592898674431">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1238" height="211" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1595311160721" />
+    <state width="1238" height="211" key="GridCell.Tab.0.center" timestamp="1595311160706">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1592898674431" />
-    <state width="1238" height="347" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1592374326033" />
-    <state width="1238" height="211" key="GridCell.Tab.0.left" timestamp="1592898674429">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1238" height="211" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1595311160706" />
+    <state width="1238" height="211" key="GridCell.Tab.0.left" timestamp="1595311160675">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1592898674429" />
-    <state width="1238" height="347" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1592374326032" />
-    <state width="1238" height="211" key="GridCell.Tab.0.right" timestamp="1592898674433">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1238" height="211" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1595311160675" />
+    <state width="1238" height="211" key="GridCell.Tab.0.right" timestamp="1595311160709">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1592898674433" />
-    <state width="1238" height="347" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1592374326034" />
+    <state width="1238" height="211" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1595311160709" />
     <state width="1238" height="263" key="GridCell.Tab.1.bottom" timestamp="1591333878523">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -226,7 +218,6 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="277" y="67" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1590483394198" />
-    <state x="250" y="23" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1583746687421" />
     <state x="352" y="299" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1591855813144">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -243,16 +234,15 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="306" y="103" width="667" height="676" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1592895205189" />
-    <state x="306" y="47" width="667" height="729" key="find.popup/0.23.1280.777@0.23.1280.777" timestamp="1584102922299" />
-    <state x="34" y="22" key="new project wizard" timestamp="1590996075830">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state x="34" y="44" key="new project wizard" timestamp="1598094462926">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="34" y="22" key="new project wizard/0.0.1280.800@0.0.1280.800" timestamp="1590996075830" />
+    <state x="34" y="44" key="new project wizard/0.23.1280.777@0.23.1280.777" timestamp="1598094462926" />
     <state x="305" y="104" width="670" height="697" key="search.everywhere.popup" timestamp="1592202189601">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="305" y="104" width="670" height="697" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1592202189601" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.23.1280.777@0.23.1280.777" timestamp="1583834695690" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

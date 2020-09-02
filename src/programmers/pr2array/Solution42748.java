@@ -1,4 +1,4 @@
-package pr2array;
+package programmers.pr2array;
 
 import java.util.ArrayList;
 import java.util.Collections;

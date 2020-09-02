@@ -1,4 +1,4 @@
-package pr4dfsbfs;
+package programmers.pr4dfsbfs;
 
 import java.util.*;
 

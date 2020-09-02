@@ -1,4 +1,4 @@
-package pr1hash;
+package programmers.pr1hash;
 
 import java.util.Arrays;
 import java.util.Collections;

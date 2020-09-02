@@ -1,4 +1,4 @@
-package pr1hash;
+package programmers.pr1hash;
 
 /**
  * 전화번호부에 적힌 전화번호를 담은 배열 phone_book 이 solution 함수의 매개변수로 주어질 때,

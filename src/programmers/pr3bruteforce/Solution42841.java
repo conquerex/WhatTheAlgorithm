@@ -1,4 +1,4 @@
-package pr3bruteforce;
+package programmers.pr3bruteforce;
 
 /**
  * 숫자 야구
