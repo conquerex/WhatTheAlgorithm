@@ -6,11 +6,20 @@ import java.io.InputStreamReader;
 
 /**
  * Created by Jongkook on 2020/09/03.
- * 문제 출처 :
+ * 문제 출처 : https://programmers.co.kr/learn/courses/30/lessons/12901
  * <p>
  * Time Complexity :
  * Used Algorithm :
  * Used Data structure :
+ * .
+ * 처음에 전 일정의 요일을 담았으나 비효율적이라고 생각되어 개선
+ * String day[] = new String[366];
+ * 테스트 13 〉	통과 (0.83ms, 42.3MB)
+ * 테스트 14 〉	통과 (0.86ms, 42.7MB)
+ * .
+ * 개선된 코드 -- 비슷하네 ㅎㅎㅎ
+ * 테스트 13 〉	통과 (0.88ms, 43.4MB)
+ * 테스트 14 〉	통과 (0.83ms, 42.7MB)
  */
 
 public class week15_p12901 {
@@ -35,18 +44,6 @@ public class week15_p12901 {
         // 2016년은 윤년 == 366일
         String day[] = new String[366];
 
-        // 366개의 요일
-        int i = 0;
-        while (i < day.length) {
-            int j = 0;
-            while (j < week.length) {
-                if (i == 366) break; // 366번째 요일이 j의 마지막 회차에 딱 떨어지지 않는 이상 366일이 될 수 있다.
-                day[i] = week[j];
-                j++;
-                i++;
-            }
-        }
-
         int monthInfo[] = {31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 
         // a월 b일이 첫해가 된지 며칠째인지
@@ -62,6 +59,6 @@ public class week15_p12901 {
         // 100일째를 찾는 것이면 index == 99
         totalDay += b - 1;
 
-        return day[totalDay];
+        return week[totalDay % 7];
     }
 }
