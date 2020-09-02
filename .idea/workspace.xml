@@ -2,22 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1a2206d-24c7-4e58-a952-0e600cb239d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/study/week15/week15_p12901.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr1hash/Solution42576.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/pr1hash/Solution42576.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr1hash/Solution42577.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/pr1hash/Solution42577.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr1hash/Solution42578.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/pr1hash/Solution42578.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr2array/Solution42746.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/pr2array/Solution42746.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr2array/Solution42747.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/pr2array/Solution42747.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr2array/Solution42747_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/pr2array/Solution42747_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr2array/Solution42748.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/pr2array/Solution42748.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr3bruteforce/Solution42839.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/pr3bruteforce/Solution42839.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr3bruteforce/Solution42840.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/pr3bruteforce/Solution42840.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr3bruteforce/Solution42841.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/pr3bruteforce/Solution42841.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr3bruteforce/Solution42842.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/pr3bruteforce/Solution42842.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr4dfsbfs/Solution43162.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/pr4dfsbfs/Solution43162.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr4dfsbfs/Solution43163.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/pr4dfsbfs/Solution43163.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr4dfsbfs/Solution43163_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/pr4dfsbfs/Solution43163_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr4dfsbfs/Solution43165.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/pr4dfsbfs/Solution43165.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/pr1hash/Solution42576.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/pr1hash/Solution42577.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/pr1hash/Solution42578.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/pr2array/Solution42746$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/pr2array/Solution42746.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/pr2array/Solution42747.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/pr2array/Solution42747_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSample/pr2array/Solution42748.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +41,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
@@ -79,7 +74,7 @@
       <recent name="$PROJECT_DIR$/.github/workflows" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DebtSettlement">
+  <component name="RunManager" selected="Application.week15_p12901">
     <configuration name="DebtSettlement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="devsisters.DebtSettlement" />
       <module name="JavaSample" />
@@ -93,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="week3_p42626" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="study.week3.week3_p42626" />
+    <configuration name="week15_p12901" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study.week15.week15_p12901" />
       <module name="JavaSample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="study.week3.*" />
+          <option name="PATTERN" value="study.week15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,8 +101,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="week3_p43164" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="study.week3.week3_p43164" />
+    <configuration name="week3_p12945" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study.week3.week3_p12945" />
       <module name="JavaSample" />
       <extension name="coverage">
         <pattern>
@@ -147,14 +142,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.week15_p12901" />
+        <item itemvalue="Application.week3_p12945" />
         <item itemvalue="Application.DebtSettlement" />
         <item itemvalue="Application.week4_02156" />
         <item itemvalue="Application.week4_02343" />
-        <item itemvalue="Application.week3_p42626" />
-        <item itemvalue="Application.week3_p43164" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -181,43 +177,44 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="240" y="48" key="#Plugins" timestamp="1595311385011">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state x="240" y="70" key="#Plugins" timestamp="1599066716792">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="240" y="48" key="#Plugins/0.0.1280.800@0.0.1280.800" timestamp="1595311385011" />
+    <state x="240" y="70" key="#Plugins/0.23.1280.777@0.23.1280.777" timestamp="1599066716792" />
     <state x="359" y="209" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591429770013">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="359" y="209" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800@0.0.1280.800" timestamp="1591429770013" />
-    <state x="328" y="162" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1599065937915">
+    <state x="328" y="162" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1599066206329">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="328" y="143" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.800@0.0.1280.800" timestamp="1595311102057" />
-    <state x="328" y="162" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1280.777@0.23.1280.777" timestamp="1599065937915" />
+    <state x="328" y="162" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1280.777@0.23.1280.777" timestamp="1599066206329" />
     <state x="440" y="343" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1599065929971">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="440" y="343" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1280.777@0.23.1280.777" timestamp="1599065929971" />
-    <state width="1238" height="211" key="GridCell.Tab.0.bottom" timestamp="1595311160721">
+    <state width="1238" height="196" key="GridCell.Tab.0.bottom" timestamp="1599067612587">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1592898674434" />
-    <state width="1238" height="211" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1595311160721" />
-    <state width="1238" height="211" key="GridCell.Tab.0.center" timestamp="1595311160706">
+    <state width="1238" height="196" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1599067612587" />
+    <state width="1238" height="196" key="GridCell.Tab.0.center" timestamp="1599067612586">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1592898674431" />
-    <state width="1238" height="211" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1595311160706" />
-    <state width="1238" height="211" key="GridCell.Tab.0.left" timestamp="1595311160675">
+    <state width="1238" height="196" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1599067612586" />
+    <state width="1238" height="196" key="GridCell.Tab.0.left" timestamp="1599067612585">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1592898674429" />
-    <state width="1238" height="211" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1595311160675" />
-    <state width="1238" height="211" key="GridCell.Tab.0.right" timestamp="1595311160709">
+    <state width="1238" height="196" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1599067612585" />
+    <state width="1238" height="196" key="GridCell.Tab.0.right" timestamp="1599067612587">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1592898674433" />
-    <state width="1238" height="211" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1595311160709" />
+    <state width="1238" height="196" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1599067612587" />
     <state width="1238" height="263" key="GridCell.Tab.1.bottom" timestamp="1591333878523">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
