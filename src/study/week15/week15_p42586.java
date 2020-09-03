@@ -32,7 +32,7 @@ public class week15_p42586 {
 
     public static int[] solution(int[] progresses, int[] speeds) {
         int[] answer = {};
-        
+
         return answer;
     }
 }
