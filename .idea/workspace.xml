@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1a2206d-24c7-4e58-a952-0e600cb239d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/study/week15/week15_p42586.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/study/week15/week15_p12901.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study/week15/week15_p12901.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,22 +48,22 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="study.week3" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.github/workflows" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="study.week15" />
+      <recent name="study.week1" />
+      <recent name="study" />
+      <recent name="pr4dfsbfs" />
+      <recent name="pr3bruteforce" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/baekjoon" />
       <recent name="$PROJECT_DIR$/src/pr1hash" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="study.week1" />
-      <recent name="study" />
-      <recent name="pr4dfsbfs" />
-      <recent name="pr3bruteforce" />
-      <recent name="part2tree" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/.github/workflows" />
     </key>
   </component>
   <component name="RunManager" selected="Application.week15_p12901">
@@ -169,6 +169,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="274" y="97" key="#Inspections" timestamp="1599068966293">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="274" y="97" key="#Inspections/0.23.1280.777@0.23.1280.777" timestamp="1599068966293" />
     <state x="240" y="70" key="#Plugins" timestamp="1599066716792">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
@@ -239,10 +243,11 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="210" y="143" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.800@0.0.1280.800" timestamp="1590487119047" />
-    <state x="306" y="103" width="667" height="676" key="find.popup" timestamp="1592895205189">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state x="306" y="123" width="667" height="657" key="find.popup" timestamp="1599068739395">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="306" y="103" width="667" height="676" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1592895205189" />
+    <state x="306" y="123" width="667" height="657" key="find.popup/0.23.1280.777@0.23.1280.777" timestamp="1599068739395" />
     <state x="34" y="44" key="new project wizard" timestamp="1598094462926">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
