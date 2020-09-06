@@ -8,14 +8,14 @@ import java.util.Queue;
 
 /**
  * Created by Jongkook on 2020/09/07.
- * 문제 출처 :
+ * 문제 출처 : https://www.acmicpc.net/problem/2161
  * <p>
  * Time Complexity :
  * Used Algorithm : 시뮬레이션, 구현
  * Used Data structure :
  */
 
-public class week16_2161 {
+public class week16_02161 {
     public static void main(String[] args) {
         try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
             int n = Integer.parseInt(br.readLine()); // 카드 갯수
