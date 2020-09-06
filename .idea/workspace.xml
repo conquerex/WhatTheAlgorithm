@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1a2206d-24c7-4e58-a952-0e600cb239d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/study/week15/week15_p42586.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/study/week16/week16_2161.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +66,7 @@
       <recent name="$PROJECT_DIR$/src/pr1hash" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.week15_p12901">
+  <component name="RunManager" selected="Application.week16_2161">
     <configuration name="DebtSettlement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="devsisters.DebtSettlement" />
       <module name="JavaSample" />
@@ -86,6 +86,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="study.week15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="week16_2161" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study.week16.week16_2161" />
+      <module name="JavaSample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="study.week16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,26 +132,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="week4_02343" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="study.week4.week4_02343" />
-      <module name="JavaSample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="study.week4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.week16_2161" />
         <item itemvalue="Application.week15_p12901" />
         <item itemvalue="Application.week3_p12945" />
         <item itemvalue="Application.DebtSettlement" />
         <item itemvalue="Application.week4_02156" />
-        <item itemvalue="Application.week4_02343" />
       </list>
     </recent_temporary>
   </component>
@@ -169,10 +169,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="274" y="97" key="#Inspections" timestamp="1599068966293">
+    <state x="274" y="97" key="#Inspections" timestamp="1599420197467">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="274" y="97" key="#Inspections/0.23.1280.777@0.23.1280.777" timestamp="1599068966293" />
+    <state x="274" y="97" key="#Inspections/0.23.1280.777@0.23.1280.777" timestamp="1599420197467" />
     <state x="240" y="70" key="#Plugins" timestamp="1599066716792">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
@@ -191,26 +191,26 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="440" y="343" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1280.777@0.23.1280.777" timestamp="1599065929971" />
-    <state width="1238" height="196" key="GridCell.Tab.0.bottom" timestamp="1599068337701">
+    <state width="1238" height="196" key="GridCell.Tab.0.bottom" timestamp="1599420348989">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1592898674434" />
-    <state width="1238" height="196" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1599068337701" />
-    <state width="1238" height="196" key="GridCell.Tab.0.center" timestamp="1599068337700">
+    <state width="1238" height="196" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1599420348989" />
+    <state width="1238" height="196" key="GridCell.Tab.0.center" timestamp="1599420348988">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1592898674431" />
-    <state width="1238" height="196" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1599068337700" />
-    <state width="1238" height="196" key="GridCell.Tab.0.left" timestamp="1599068337699">
+    <state width="1238" height="196" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1599420348988" />
+    <state width="1238" height="196" key="GridCell.Tab.0.left" timestamp="1599420348988">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1592898674429" />
-    <state width="1238" height="196" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1599068337699" />
-    <state width="1238" height="196" key="GridCell.Tab.0.right" timestamp="1599068337701">
+    <state width="1238" height="196" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1599420348988" />
+    <state width="1238" height="196" key="GridCell.Tab.0.right" timestamp="1599420348989">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1592898674433" />
-    <state width="1238" height="196" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1599068337701" />
+    <state width="1238" height="196" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1599420348989" />
     <state width="1238" height="263" key="GridCell.Tab.1.bottom" timestamp="1591333878523">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
