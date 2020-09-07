@@ -1,4 +1,4 @@
-package devsisters;
+package codetest.devsisters;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
