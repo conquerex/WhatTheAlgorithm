@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1a2206d-24c7-4e58-a952-0e600cb239d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/codetest/wadiz/EveryNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codetest/wadiz/Height.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codetest/wadiz/RankingPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codetest/wadiz/RankingPage2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codetest/wadiz/EveryNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codetest/wadiz/EveryNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codetest/wadiz/Height.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codetest/wadiz/Height.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codetest/wadiz/RankingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codetest/wadiz/RankingPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
