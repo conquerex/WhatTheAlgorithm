@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1a2206d-24c7-4e58-a952-0e600cb239d1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/codetest/wadiz/EveryNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codetest/wadiz/EveryNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codetest/wadiz/Height.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codetest/wadiz/Height.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codetest/wadiz/RankingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codetest/wadiz/RankingPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/study/week22/week15_p42586.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +38,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/baekjoon" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -49,16 +48,6 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="study.week3" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/.github/workflows" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="study.week15" />
-      <recent name="study.week1" />
-      <recent name="study" />
-      <recent name="pr4dfsbfs" />
-      <recent name="pr3bruteforce" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -66,8 +55,18 @@
       <recent name="$PROJECT_DIR$/src/baekjoon" />
       <recent name="$PROJECT_DIR$/src/pr1hash" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="study.week22" />
+      <recent name="study.week15" />
+      <recent name="study.week1" />
+      <recent name="study" />
+      <recent name="pr4dfsbfs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.github/workflows" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.RankingPage2">
+  <component name="RunManager" selected="Application.week15_p42586">
     <configuration name="EveryNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="codetest.wadiz.EveryNumber" />
       <module name="JavaSample" />
@@ -120,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Village" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codetest.klc.Village" />
+    <configuration name="week15_p42586" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study.week22.week15_p42586" />
       <module name="JavaSample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="codetest.klc.*" />
+          <option name="PATTERN" value="study.week22.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.week15_p42586" />
         <item itemvalue="Application.RankingPage2" />
         <item itemvalue="Application.RankingPage" />
         <item itemvalue="Application.Height" />
         <item itemvalue="Application.EveryNumber" />
-        <item itemvalue="Application.Village" />
       </list>
     </recent_temporary>
   </component>
@@ -179,10 +178,6 @@
     </state>
     <state x="240" y="48" key="#Plugins/0.0.1280.800@0.0.1280.800" timestamp="1595311385011" />
     <state x="240" y="70" key="#Plugins/0.23.1280.777@0.23.1280.777" timestamp="1599066716792" />
-    <state x="359" y="209" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591429770013">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="359" y="209" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800@0.0.1280.800" timestamp="1591429770013" />
     <state x="453" y="125" key="#com.intellij.ide.util.MemberChooser" timestamp="1600310133334">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
@@ -196,72 +191,34 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="440" y="343" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1280.777@0.23.1280.777" timestamp="1599465863084" />
-    <state width="1238" height="196" key="GridCell.Tab.0.bottom" timestamp="1602660265259">
+    <state width="1238" height="196" key="GridCell.Tab.0.bottom" timestamp="1603180796274">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="211" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1592898674434" />
-    <state width="1238" height="196" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1602660265259" />
-    <state width="1238" height="196" key="GridCell.Tab.0.center" timestamp="1602660265258">
+    <state width="1238" height="196" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1603180796274" />
+    <state width="1238" height="196" key="GridCell.Tab.0.center" timestamp="1603180796271">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="211" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1592898674431" />
-    <state width="1238" height="196" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1602660265258" />
-    <state width="1238" height="196" key="GridCell.Tab.0.left" timestamp="1602660265257">
+    <state width="1238" height="196" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1603180796271" />
+    <state width="1238" height="196" key="GridCell.Tab.0.left" timestamp="1603180796269">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="211" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1592898674429" />
-    <state width="1238" height="196" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1602660265257" />
-    <state width="1238" height="196" key="GridCell.Tab.0.right" timestamp="1602660265258">
+    <state width="1238" height="196" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1603180796269" />
+    <state width="1238" height="196" key="GridCell.Tab.0.right" timestamp="1603180796274">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="211" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1592898674433" />
-    <state width="1238" height="196" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1602660265258" />
-    <state width="1238" height="263" key="GridCell.Tab.1.bottom" timestamp="1591333878523">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1238" height="263" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1591333878523" />
-    <state width="1238" height="263" key="GridCell.Tab.1.center" timestamp="1591333878522">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1238" height="263" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1591333878522" />
-    <state width="1238" height="263" key="GridCell.Tab.1.left" timestamp="1591333878522">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1238" height="263" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1591333878522" />
-    <state width="1238" height="263" key="GridCell.Tab.1.right" timestamp="1591333878523">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1238" height="263" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1591333878523" />
-    <state x="277" y="67" key="SettingsEditor" timestamp="1590483394198">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="277" y="67" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1590483394198" />
-    <state x="352" y="299" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1591855813144">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="352" y="299" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.800@0.0.1280.800" timestamp="1591855813144" />
-    <state x="419" y="201" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1591855822893">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="419" y="201" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.800@0.0.1280.800" timestamp="1591855822893" />
-    <state x="210" y="143" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1590487119047">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="210" y="143" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.800@0.0.1280.800" timestamp="1590487119047" />
+    <state width="1238" height="196" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1603180796274" />
     <state x="306" y="123" width="667" height="657" key="find.popup" timestamp="1600309910982">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="306" y="103" width="667" height="676" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1592895205189" />
     <state x="306" y="123" width="667" height="657" key="find.popup/0.23.1280.777@0.23.1280.777" timestamp="1600309910982" />
     <state x="34" y="44" key="new project wizard" timestamp="1598094462926">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="34" y="22" key="new project wizard/0.0.1280.800@0.0.1280.800" timestamp="1590996075830" />
     <state x="34" y="44" key="new project wizard/0.23.1280.777@0.23.1280.777" timestamp="1598094462926" />
-    <state x="305" y="104" width="670" height="697" key="search.everywhere.popup" timestamp="1592202189601">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1603179114657">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="305" y="104" width="670" height="697" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1592202189601" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.23.1280.777@0.23.1280.777" timestamp="1603179114657" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
