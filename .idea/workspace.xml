@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1a2206d-24c7-4e58-a952-0e600cb239d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/study/week27/week27_p42883.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/study/week30/week30_p42862.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/study/week30/week27_p42883.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study/week30/week27_p42883.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,20 +66,7 @@
       <recent name="$PROJECT_DIR$/.github/workflows" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.week30_p42862">
-    <configuration name="RankingPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codetest.wadiz.RankingPage" />
-      <module name="JavaSample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="codetest.wadiz.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.week27_p42883">
     <configuration name="RankingPage2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="codetest.wadiz.RankingPage2" />
       <module name="JavaSample" />
@@ -100,6 +86,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="study.week22.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="week27_p42883" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study.week30.week27_p42883" />
+      <module name="JavaSample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="study.week30.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.week27_p42883" />
         <item itemvalue="Application.week30_p42862" />
         <item itemvalue="Application.week29_07568" />
         <item itemvalue="Application.week15_p42586" />
         <item itemvalue="Application.RankingPage2" />
-        <item itemvalue="Application.RankingPage" />
       </list>
     </recent_temporary>
   </component>
