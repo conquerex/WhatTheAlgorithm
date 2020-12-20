@@ -24,7 +24,7 @@ public class week31_g43218 {
             String[] stdInArr = new String[count];
             int totalCount = Integer.parseInt(br.readLine());
 
-            while (isStatus) {
+            while (!isStatus) {
                 String input = br.readLine();
                 if (count > 10) {
                     System.out.print("overflow");
