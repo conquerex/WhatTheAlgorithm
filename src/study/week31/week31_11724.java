@@ -51,7 +51,8 @@ public class week31_11724 {
 
             for (int i = 1; i < n + 1; i++) {
                 if (!visited[i]) {
-                    doBfs(i);
+//                    doBfs(i);
+                    doDfs(i);
                     result += 1;
                 }
             }
@@ -59,6 +60,16 @@ public class week31_11724 {
             System.out.println(result);
         } catch (IOException e) {
             e.printStackTrace();
+        }
+    }
+
+    public static void doDfs(int n) {
+        visited[n] = true;
+        for (int i = 0; i < arrayLists.get(n).size(); i++) {
+            int next = arrayLists.get(n).get(i);
+            if (!visited[next]) {
+                doDfs(next);
+            }
         }
     }
 
