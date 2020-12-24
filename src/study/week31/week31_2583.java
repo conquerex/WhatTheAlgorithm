@@ -83,7 +83,7 @@ public class week31_2583 {
                 int newX = px + dx[i];
                 int newY = py + dy[i];
                 if (newX < 0 || newX >= n || newY < 0 || newY >= m) continue;
-                
+
                 if (!visited[newY][newX]) {
                     visited[newY][newX] = true;
                     count++;
