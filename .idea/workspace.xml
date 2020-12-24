@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1a2206d-24c7-4e58-a952-0e600cb239d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/study/week31/week31_2583.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/study/week31/week31_2583.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study/week31/week31_2583.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +67,7 @@
       <recent name="$PROJECT_DIR$/.github/workflows" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.week31_11724">
+  <component name="RunManager" selected="Application.week31_2583">
     <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="self2020.TwoSum" />
       <module name="JavaSample" />
@@ -94,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="week30_p42862" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="study.week30.week30_p42862" />
+    <configuration name="week31_11724" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study.week31.week31_11724" />
       <module name="JavaSample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="study.week30.*" />
+          <option name="PATTERN" value="study.week31.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,8 +107,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="week31_11724" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="study.week31.week31_11724" />
+    <configuration name="week31_2583" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study.week31.week31_2583" />
       <module name="JavaSample" />
       <extension name="coverage">
         <pattern>
@@ -135,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.week31_2583" />
         <item itemvalue="Application.week31_11724" />
         <item itemvalue="Application.week31_g43218" />
         <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.week27_p42883" />
-        <item itemvalue="Application.week30_p42862" />
       </list>
     </recent_temporary>
   </component>
