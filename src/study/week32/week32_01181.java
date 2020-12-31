@@ -15,7 +15,7 @@ import java.util.Comparator;
  * Used Data structure :
  */
 
-public class week32_01181 {
+    public class week32_01181 {
     public static void main(String[] args) {
         try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
             int n = Integer.parseInt(br.readLine());
