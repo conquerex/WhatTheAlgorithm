@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1a2206d-24c7-4e58-a952-0e600cb239d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/study/week32/week32_01181.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,26 +67,13 @@
       <recent name="$PROJECT_DIR$/.github/workflows" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.week31_2583">
+  <component name="RunManager" selected="Application.week32_01181">
     <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="self2020.TwoSum" />
       <module name="JavaSample" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="self2020.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="week27_p42883" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="study.week30.week27_p42883" />
-      <module name="JavaSample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="study.week30.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,13 +120,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="week32_01181" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study.week32.week32_01181" />
+      <module name="JavaSample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="study.week32.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.week32_01181" />
         <item itemvalue="Application.week31_2583" />
         <item itemvalue="Application.week31_11724" />
         <item itemvalue="Application.week31_g43218" />
         <item itemvalue="Application.TwoSum" />
-        <item itemvalue="Application.week27_p42883" />
       </list>
     </recent_temporary>
   </component>
