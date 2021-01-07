@@ -26,7 +26,7 @@ public class week33_01644 {
             arr[0] = arr[1] = true;
 
             // i의 배수를 거를 때, 그 이전 수를 거른 뒤 첫 대상이 i*i
-            for (int i = 2; i * i < n; i++) {
+            for (int i = 2; i * i <= n; i++) {
                 // i가 소수일 때
                 if (!arr[i]) {
                     for (int j = i * i; j <= n; j += i) arr[j] = true;
