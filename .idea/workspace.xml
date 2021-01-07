@@ -2,8 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1a2206d-24c7-4e58-a952-0e600cb239d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/study/week32/week32_01181.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/study/week1/week1_00001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study2020/week1/week1_00001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/study/week1/week1_00002.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study2020/week1/week1_00002.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/study/week1/week1_00003.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study2020/week1/week1_00003.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/study/week1/week1_00004.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study2020/week1/week1_00004.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/study/week1/week1_01260.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study2020/week1/week1_01260.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/study/week1/week1_01260_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study2020/week1/week1_01260_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/study/week1/week1_01912.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study2020/week1/week1_01912.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/study/week1/week1_02178.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study2020/week1/week1_02178.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/study/week1/week1_02178_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study2020/week1/week1_02178_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/study/week1/week1_07576.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study2020/week1/week1_07576.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/study/week15/week15_p12901.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study2020/week15/week15_p12901.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/study/week15/week15_p42586.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study2020/week15/week15_p42586.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/study/week16/week16_01966.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study2020/week16/week16_01966.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/study/week16/week16_02161.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study2020/week16/week16_02161.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/study/week2/week2_01644.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study2020/week2/week2_01644.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/study/week2/week2_01806.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study2020/week2/week2_01806.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/study/week2/week2_02579.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study2020/week2/week2_02579.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/study/week2/week2_02667.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study2020/week2/week2_02667.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/study/week22/week15_p42586.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study2020/week22/week15_p42586.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/study/week27/week27_p68644.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study2020/week27/week27_p68644.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/study/week29/week29_07568.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study2020/week29/week29_07568.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/study/week3/week3_p12945.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study2020/week3/week3_p12945.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/study/week3/week3_p12973.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study2020/week3/week3_p12973.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/study/week3/week3_p42626.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study2020/week3/week3_p42626.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/study/week3/week3_p42883.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study2020/week3/week3_p42883.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/study/week3/week3_p43164.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study2020/week3/week3_p43164.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/study/week3/week3_p60057.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study2020/week3/week3_p60057.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/study/week30/week27_p42883.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study2020/week30/week27_p42883.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/study/week30/week30_p42862.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study2020/week30/week30_p42862.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/study/week31/week31_11724.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study2020/week31/week31_11724.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/study/week31/week31_2583.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study2020/week31/week31_2583.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/study/week31/week31_g43218.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study2020/week31/week31_g43218.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/study/week32/week32_01181.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study2020/week32/week32_01181.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/study/week4/week4_02156.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study2020/week4/week4_02156.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/study/week4/week4_02343.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study2020/week4/week4_02343.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/study/week4/week4_02869.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study2020/week4/week4_02869.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/study/week3/week3_p60057Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/study2020/week3/week3_p60057Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,11 +118,11 @@
       </method>
     </configuration>
     <configuration name="week31_11724" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="study.week31.week31_11724" />
+      <option name="MAIN_CLASS_NAME" value="study2020.week31.week31_11724" />
       <module name="JavaSample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="study.week31.*" />
+          <option name="PATTERN" value="study2020.week31.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,11 +131,11 @@
       </method>
     </configuration>
     <configuration name="week31_2583" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="study.week31.week31_2583" />
+      <option name="MAIN_CLASS_NAME" value="study2020.week31.week31_2583" />
       <module name="JavaSample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="study.week31.*" />
+          <option name="PATTERN" value="study2020.week31.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +144,11 @@
       </method>
     </configuration>
     <configuration name="week31_g43218" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="study.week31.week31_g43218" />
+      <option name="MAIN_CLASS_NAME" value="study2020.week31.week31_g43218" />
       <module name="JavaSample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="study.week31.*" />
+          <option name="PATTERN" value="study2020.week31.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +157,11 @@
       </method>
     </configuration>
     <configuration name="week32_01181" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="study.week32.week32_01181" />
+      <option name="MAIN_CLASS_NAME" value="study2020.week32.week32_01181" />
       <module name="JavaSample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="study.week32.*" />
+          <option name="PATTERN" value="study2020.week32.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,9 +172,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.week32_01181" />
+        <item itemvalue="Application.week31_g43218" />
         <item itemvalue="Application.week31_2583" />
         <item itemvalue="Application.week31_11724" />
-        <item itemvalue="Application.week31_g43218" />
         <item itemvalue="Application.TwoSum" />
       </list>
     </recent_temporary>
@@ -173,12 +209,12 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/study/week1/week1_01912.java</url>
+          <url>file://$PROJECT_DIR$/src/study2020/week1/week1_01912.java</url>
           <line>27</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/study/week1/week1_01912.java</url>
+          <url>file://$PROJECT_DIR$/src/study2020/week1/week1_01912.java</url>
           <line>22</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
