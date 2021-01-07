@@ -3,6 +3,7 @@ package study2021;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 
 /**
  * Created by Jongkook on 2021/01/07.
@@ -16,7 +17,7 @@ import java.io.InputStreamReader;
 public class week33_01644 {
     public static void main(String[] args) {
         long sum = 0;
-        int start = 2, end = 2;
+        int start = 0, end = 0;
         long result = 0;
 
         try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
@@ -32,22 +33,17 @@ public class week33_01644 {
                 }
             }
 
-            while (start < n) {
-                if (arr[start]) {
-                    start++;
-                    continue;
-                }
+            ArrayList<Integer> list = new ArrayList<>();
+            for (int i = 0; i < arr.length; i++) {
+                if (!arr[i]) list.add(i);
+            }
 
-                if (end <= n && arr[end]) {
-                    end++;
-                    continue;
-                }
-
-                if (sum > n || end == n + 1) {
-                    sum -= start;
+            while (start < list.size()) {
+                if (sum > n || end == list.size()) {
+                    sum -= list.get(start);
                     start++;
                 } else {
-                    sum += end;
+                    sum += list.get(end);
                     end++;
                 }
 
