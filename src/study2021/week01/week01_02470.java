@@ -28,7 +28,6 @@ public class week01_02470 {
             }
 
             Arrays.parallelSort(input);
-            for (int i : input) System.out.print(i + " ");
 
             // 산성은 무조건 0보다 크다
             // 알칼리성은 무조건 0보다 작다
@@ -49,13 +48,26 @@ public class week01_02470 {
 
                 // 짧은 구간 찾기
                 if (end + 1 > input.length / 2) {
-                    start = end + 1;
+                    start = end;
                     end = input.length - 1;
+                } else {
+                    end++;
                 }
 
+                int saveSum = 2000000000;
+                int[] saveValue = new int[2];
                 for (int i = start; i <= end; i++) {
-                    binarySearch(input, input[i]);
+                    int value = binarySearch(input, input[i]);
+                    int absSum = Math.abs(input[i] + value);
+                    if (saveSum > absSum) {
+                        saveSum = absSum;
+                        saveValue[0] = value;
+                        saveValue[1] = input[i];
+                    }
                 }
+
+                Arrays.sort(saveValue);
+                System.out.println(saveValue[0] + " " + saveValue[1]);
             }
 
             System.out.println(result);
