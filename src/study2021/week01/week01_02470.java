@@ -39,7 +39,23 @@ public class week01_02470 {
                 // 제일 큰 수가 음수인가
                 result = input[n - 2] + input[n - 1];
             } else {
-                // 핵심!!
+                int start = 0;
+                int end = input.length - 1;
+                int mult = -1;
+                while (mult < 0) {
+                    end--;
+                    mult = input[0] * input[end];
+                }
+
+                // 짧은 구간 찾기
+                if (end + 1 > input.length / 2) {
+                    start = end + 1;
+                    end = input.length - 1;
+                }
+
+                for (int i = start; i <= end; i++) {
+                    binarySearch(input, input[i]);
+                }
             }
 
             System.out.println(result);
@@ -47,5 +63,32 @@ public class week01_02470 {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    private static int binarySearch(int[] arr, int target) {
+        int start = 0;
+        int end = arr.length - 1;
+        int mid = 0;
+        int sum = 0;
+        int saveSum = 2000000000;
+        int savePosition = 0;
+
+        while (start <= end) {
+            mid = (start + end) / 2;
+            sum = Math.abs(arr[mid] + target); // 절대값
+            if (sum == 0) {
+                System.out.println(mid);
+            } else {
+                if (sum < saveSum) {
+                    saveSum = sum;
+                    savePosition = mid;
+                }
+
+                if (sum > 0) end = mid - 1;
+                else start = mid + 1;
+            }
+        }
+
+        return arr[savePosition];
     }
 }
