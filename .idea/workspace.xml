@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1a2206d-24c7-4e58-a952-0e600cb239d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/study2021/Sample.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/study2021/Sample2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/study2021/Sample3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/study2021/week01/week01_03273.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/study2021/week33_01644.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study2020/week33/week33_01644.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/study2021/week33_02003.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study2020/week33/week33_02003.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +25,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1X3cCfMv4x3r73E3WzTqFlM1NHB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -70,13 +78,13 @@
       <recent name="$PROJECT_DIR$/.github/workflows" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Sample">
-    <configuration name="week33_01644" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="study2021.week33_01644" />
+  <component name="RunManager" selected="Application.week01_03273">
+    <configuration name="week01_03273" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study2021.week01.week01_03273" />
       <module name="JavaSample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="study2021.*" />
+          <option name="PATTERN" value="study2021.week01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.week01_03273" />
         <item itemvalue="Application.Sample" />
         <item itemvalue="Application.Sample2Kt" />
         <item itemvalue="Application.SampleKt" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.week33_01644" />
       </list>
     </recent_temporary>
   </component>
