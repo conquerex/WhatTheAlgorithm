@@ -15,7 +15,7 @@ import java.util.StringTokenizer;
  * Used Data structure :
  */
 
-public class week01_02470 {
+public class week02_02470 {
     public static void main(String[] args) {
         try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
             int n = Integer.parseInt(br.readLine());

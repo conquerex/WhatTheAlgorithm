@@ -15,7 +15,7 @@ import java.util.StringTokenizer;
  * Used Data structure :
  */
 
-public class week01_03273 {
+public class week02_03273 {
     public static void main(String[] args) {
         long sum = 0;
         long result = 0;
