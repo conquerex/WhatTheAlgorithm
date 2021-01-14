@@ -8,7 +8,7 @@ import java.util.StringTokenizer;
 
 /**
  * Created by Jongkook on 2021/01/14.
- * 문제 출처 :
+ * 문제 출처 :https://www.acmicpc.net/problem/2470
  * <p>
  * Time Complexity :
  * Used Algorithm :
@@ -18,8 +18,6 @@ import java.util.StringTokenizer;
 public class week01_02470 {
     public static void main(String[] args) {
         try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
-            int result = 0;
-
             int n = Integer.parseInt(br.readLine());
             StringTokenizer st = new StringTokenizer(br.readLine());
             int[] input = new int[n];
@@ -33,10 +31,10 @@ public class week01_02470 {
             // 알칼리성은 무조건 0보다 작다
             if (input[0] > 0) {
                 // 제일 작은 수가 양수인가
-                result = input[0] + input[1];
+                System.out.println(input[0] + " " + input[1]);
             } else if (input[n - 1] < 0) {
                 // 제일 큰 수가 음수인가
-                result = input[n - 2] + input[n - 1];
+                System.out.println(input[n - 2] + " " + input[n - 1]);
             } else {
                 int start = 0;
                 int end = input.length - 1;
@@ -51,6 +49,7 @@ public class week01_02470 {
                     start = end;
                     end = input.length - 1;
                 } else {
+                    System.out.println();
                     end++;
                 }
 
@@ -70,8 +69,6 @@ public class week01_02470 {
                 System.out.println(saveValue[0] + " " + saveValue[1]);
             }
 
-            System.out.println(result);
-
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -80,14 +77,14 @@ public class week01_02470 {
     private static int binarySearch(int[] arr, int target) {
         int start = 0;
         int end = arr.length - 1;
-        int mid = 0;
+        int mid = (start + end) / 2;
         int sum = 0;
         int saveSum = 2000000000;
         int savePosition = 0;
 
         while (start <= end) {
-            mid = (start + end) / 2;
             sum = Math.abs(arr[mid] + target); // 절대값
+
             if (sum == 0) {
                 System.out.println(mid);
             } else {
@@ -96,7 +93,7 @@ public class week01_02470 {
                     savePosition = mid;
                 }
 
-                if (sum > 0) end = mid - 1;
+                if (arr[mid] + target > 0) end = mid - 1;
                 else start = mid + 1;
             }
         }
