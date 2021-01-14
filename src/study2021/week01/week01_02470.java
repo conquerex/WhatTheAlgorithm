@@ -36,37 +36,8 @@ public class week01_02470 {
                 // 제일 큰 수가 음수인가
                 System.out.println(input[n - 2] + " " + input[n - 1]);
             } else {
-                int start = 0;
-                int end = input.length - 1;
-                int mult = -1;
-                while (mult < 0) {
-                    end--;
-                    mult = input[0] * input[end];
-                }
-
-                // 짧은 구간 찾기
-                if (end + 1 > input.length / 2) {
-                    start = end;
-                    end = input.length - 1;
-                } else {
-                    System.out.println();
-                    end++;
-                }
-
-                int saveSum = 2000000000;
-                int[] saveValue = new int[2];
-                for (int i = start; i <= end; i++) {
-                    int value = binarySearch(input, input[i]);
-                    int absSum = Math.abs(input[i] + value);
-                    if (saveSum > absSum) {
-                        saveSum = absSum;
-                        saveValue[0] = value;
-                        saveValue[1] = input[i];
-                    }
-                }
-
-                Arrays.sort(saveValue);
-                System.out.println(saveValue[0] + " " + saveValue[1]);
+                int[] result = solution(input);
+                System.out.println(result[0] + " " + result[1]);
             }
 
         } catch (IOException e) {
@@ -74,30 +45,31 @@ public class week01_02470 {
         }
     }
 
-    private static int binarySearch(int[] arr, int target) {
+    private static int[] solution(int[] arr) {
         int start = 0;
         int end = arr.length - 1;
-        int mid = (start + end) / 2;
-        int sum = 0;
         int saveSum = 2000000000;
-        int savePosition = 0;
+        int[] result = new int[2];
 
-        while (start <= end) {
-            sum = Math.abs(arr[mid] + target); // 절대값
+        int sum = 0;
 
-            if (sum == 0) {
-                System.out.println(mid);
-            } else {
-                if (sum < saveSum) {
-                    saveSum = sum;
-                    savePosition = mid;
-                }
+        while (start < end) {
+            sum = arr[start] + arr[end];
 
-                if (arr[mid] + target > 0) end = mid - 1;
-                else start = mid + 1;
+            if (Math.abs(sum) < saveSum) {
+                result[0] = arr[start];
+                result[1] = arr[end];
+                saveSum = Math.abs(sum);
             }
+
+            if (sum > 0)
+                // 큰쪽 수를 줄이기
+                end--;
+            else
+                // 작은쪽 수를 늘리기
+                start++;
         }
 
-        return arr[savePosition];
+        return result;
     }
 }
