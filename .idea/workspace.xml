@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1a2206d-24c7-4e58-a952-0e600cb239d1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/study2021/week01/week01_02470.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study2021/week01/week01_02470.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/study2021/week17/week17_leet1704.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +15,8 @@
       <list>
         <option value="JUnit4 Test Class" />
         <option value="Kotlin File" />
-        <option value="Kotlin Class" />
         <option value="Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -51,7 +52,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -75,13 +76,13 @@
       <recent name="$PROJECT_DIR$/.github/workflows" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.week01_02470">
-    <configuration name="week01_02470" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="study2021.week01.week01_02470" />
+  <component name="RunManager" selected="Application.Week17_leet1704Kt">
+    <configuration name="week02_02470" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study2021.week02.week02_02470" />
       <module name="JavaSample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="study2021.week01.*" />
+          <option name="PATTERN" value="study2021.week02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="week01_03273" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="study2021.week01.week01_03273" />
+    <configuration name="week02_03273" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study2021.week02.week02_03273" />
       <module name="JavaSample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="study2021.week01.*" />
+          <option name="PATTERN" value="study2021.week02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,19 +116,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sample2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="JavaSample" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="study2021.Sample2Kt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="JavaSample" />
       <option name="VM_PARAMETERS" />
@@ -141,12 +129,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Week17_leet1704Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="JavaSample" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="study2021.week17.Week17_leet1704Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.week01_02470" />
-        <item itemvalue="Application.week01_03273" />
+        <item itemvalue="Application.Week17_leet1704Kt" />
+        <item itemvalue="Application.week02_02470" />
+        <item itemvalue="Application.week02_03273" />
         <item itemvalue="Application.Sample" />
-        <item itemvalue="Application.Sample2Kt" />
         <item itemvalue="Application.SampleKt" />
       </list>
     </recent_temporary>
